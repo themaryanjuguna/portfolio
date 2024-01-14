@@ -2,6 +2,7 @@
   "name": "maryanne",
   "version": "1.1.8",
   "private": true,
+  "type": "module",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
