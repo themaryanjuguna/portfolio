@@ -8,11 +8,11 @@ import {
 } from "react-icons/fa";
 
 const SocialShare = [
-  { Social: <FaFacebookF />, link: "https://www.facebook.com/" },
-  { Social: <FaTwitter />, link: "https://www.linkedin.com/" },
-  { Social: <FaInstagram />, link: "https://www.instagram.com/" },
-  { Social: <FaLinkedinIn />, link: "https://twitter.com/" },
-  { Social: <FaPinterestP />, link: "https://www.pinterest.com/" },
+  { Social: <FaFacebookF />, link: "https://www.facebook.com/themaryanjuguna" },
+  { Social: <FaTwitter />, link: "https://twitter.com/themaryanjuguna" },
+  { Social: <FaInstagram />, link: "https://www.instagram.com/themaryanjuguna/" },
+  { Social: <FaLinkedinIn />, link: "https://www.linkedin.com/in/themaryanjuguna" },
+  { Social: <FaPinterestP />, link: "https://www.pinterest.com/themaryanjuguna/" },
 ];
 
 const Footer = () => {
@@ -35,13 +35,13 @@ const Footer = () => {
           <p>
             © {new Date().getFullYear()} copyright{" "}
             <a
-              href="https://themeforest.net/user/ib-themes/portfolio"
+              href="https://linktr.ee/themaryanjuguna"
               target="_blank"
               rel="noreferrer"
             >
-              ib-themes
+              Maryanne Nyambura
             </a>{" "}
-            all right reserved
+            All right reserved
           </p>
         </div>
         {/* End .col */}

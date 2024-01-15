@@ -2,17 +2,19 @@ import React from "react";
 import TextLoop from "react-text-loop";
 
 const conctInfo = {
-  phone: "+04 6545-9535-6515",
-  email: " nairobi-designer@domain.com",
+  phone: "+254 727 680 056",
+  email: "marianne.njuguna@gmail.com",
 };
 
 const sliderContent = {
   name: "Maryanne Nyambura",
   designation: "Full-stack Developer",
-  description: `I design and develop services for customers of all sizes,
-  specializing in creating stylish, modern websites, web
-  services and online stores.`,
-  btnText: " Donwload CV",
+  description: `I specialize in crafting customized solutions for clients of all sizes, 
+  with expertise in developing sleek and contemporary websites, web services, online stores, 
+  and incorporating graphic design elements. My focus is on delivering visually appealing and 
+  functional designs that effectively cater to the unique needs of each customer.`,
+  btnText: "HIRE ME",
+  btnText2: "My Work",
 };
 
 const Slider = () => {
@@ -22,12 +24,12 @@ const Slider = () => {
       <section id="home" className="home-banner">
         <div className="hb-top-fixed d-flex">
           <div className="hb-info">
-            <a href="tel:+04 6545-9535-6515">{conctInfo.phone}</a>
-            <a href="mailto:mail%20to:ibthemes21@gmail.com,com">
+            <a href="tel:+727 680-056">{conctInfo.phone}</a>
+            <a href="mailto:marianne.njuguna@gmail.com">
               {conctInfo.email}
             </a>
           </div>
-          <div className="hb-lang">
+          {/* <div className="hb-lang">
             <ul className="nav">
               <li className="active">
                 <a href="#">EN</a>
@@ -36,7 +38,7 @@ const Slider = () => {
                 <a href="#">FR</a>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
         {/* End hp-top-fixed */}
 
@@ -61,9 +63,11 @@ const Slider = () => {
                   data-aos-delay="200"
                 >
                   <TextLoop>
-                    <p className="loop-text lead">Full-stack Developer</p>
-                    <p className="loop-text lead"> UI/UX Designer</p>
-                    <p className="loop-text lead"> App Developer</p>
+                  <p className="loop-text lead">Graphic Designer</p>
+                  <p className="loop-text lead">WordPress Designer</p>
+                  <p className="loop-text lead">UI/UX Designer</p>
+                  <p className="loop-text lead">Front-End Developer</p>
+                  <p className="loop-text lead">Narcolepsy Patient Advocate</p>
                   </TextLoop>
                 </div>
 

@@ -27,8 +27,8 @@ const About = () => {
                 </div>
                 {/* End img */}
                 <div className="info">
-                  <p>Ux/Ui Designer</p>
-                  <h3>Nairobi Gadot</h3>
+                  <p>Graphic & Web | UX/UI Designer</p>
+                  <h3>Maryanne Nyambura</h3>
                 </div>
                 {/* End info */}
               </div>
@@ -48,38 +48,47 @@ const About = () => {
                 </div>
 
                 <div className="about-text">
-                  <p>
-                    I'm a Freelancer Front-end Developer with over 3 years of
-                    experience. I'm from San Francisco. I code and create web
-                    elements for amazing people around the world. I like work
-                    with new people. New people new Experiences.
+                  <p>I'm a seasoned branding consultant with over a decade of experience, located in Nairobi, Kenya, 
+                    and actively engaged in online projects. My expertise lies in graphic and WordPress design, with a 
+                    focus on frontend development. 
+                  </p>
+                  <p>As an aspiring UX/UI Designer, I am passionate and skilled in creating meaningful and visually 
+                  appealing designs. Currently pursuing a degree in Computer Science at Kibo School, I am inspired to 
+                  expand my knowledge in inclusive design to develop solutions that empower diverse users through 
+                  accessible and user-friendly design practices.
                   </p>
                   <p>
-                    I'm a Freelancer Front-end Developer with over 3 years of
-                    experience. I'm from San Francisco. I code and create web
-                    elements for amazing people around the world. I like work
-                    with new people. New people new Experiences.
+                  In addition to my roles as a branding consultant and designer, I am a dedicated Patient Advocate 
+                  committed to raising awareness about narcolepsy and non-communicable diseases (NCDs).
+                  With a fervent belief in the power of advocacy, I actively engage in initiatives to promote understanding 
+                  and knowledge about narcolepsy, advocating for greater support and resources for individuals affected by 
+                  this condition. Additionally, my commitment extends to addressing broader issues related to non-communicable diseases, 
+                  working towards fostering a healthier and more informed community. 
+                  </p>
+                  <p> 
+                  Through my multifaceted approach, I aim to contribute to a society that is well-informed, empathetic, 
+                  and supportive of individuals facing health challenges.
                   </p>
                 </div>
                 <div className="info-list">
                   <div className="row">
                     <div className="col-sm-6">
-                      <ul>
+                    <ul>
                         <li>
                           <label>Name: </label>
-                          <span>Nairobi Gadot</span>
+                          <span>Maryanne Nyambura</span>
                         </li>
                         <li>
-                          <label>Birthday: </label>
-                          <span>4th April 1994</span>
+                          <label>Year of Birth: </label>
+                          <span>1989</span>
                         </li>
                         <li>
-                          <label>Age: </label>
-                          <span>26 years</span>
+                          <label>Linkree: </label>
+                          <span><a href="https://linktr.ee/themaryanjuguna" target="_blank" rel="noreferrer">Linktree</a></span>
                         </li>
                         <li>
                           <label>Address: </label>
-                          <span>San Francisco</span>
+                          <span>Nairobi, Kenya</span>
                         </li>
                       </ul>
                     </div>
@@ -87,15 +96,15 @@ const About = () => {
                       <ul>
                         <li>
                           <label>Phone: </label>
-                          <span>(+38) 469 2344 2364</span>
+                          <span>(+254)727 680 056</span>
                         </li>
                         <li>
                           <label>Email: </label>
-                          <span>info@domainname.com</span>
+                          <span>marianne.njuguna@gmail.com</span>
                         </li>
                         <li>
                           <label>Skype: </label>
-                          <span>nairob.40</span>
+                          <span>mbuseh</span>
                         </li>
                         <li>
                           <label>Freelance: </label>
