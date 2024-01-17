@@ -5,9 +5,9 @@ import VisibilitySensor from "react-visibility-sensor";
 const skillContent = [
   {
     name: "Graphic Design",
-    numberPercent: "92",
+    numberPercent: "95",
     startCount: "0",
-    endCount: "92",
+    endCount: "95",
   },
   {
     name: "HTML5/CSS/Bootsrap/Tailwind",
@@ -22,16 +22,16 @@ const skillContent = [
     endCount: "90",
   },
   {
-    name: "UI/UX",
+    name: "User Interface Design",
     numberPercent: "75",
     startCount: "0",
     endCount: "75",
   },
   {
     name: "React JS",
-    numberPercent: "50",
+    numberPercent: "60",
     startCount: "0",
-    endCount: "50",
+    endCount: "60",
   },
   {
     name: "Angular",

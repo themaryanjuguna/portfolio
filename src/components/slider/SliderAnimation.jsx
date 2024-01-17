@@ -13,8 +13,8 @@ const sliderContent = {
   with expertise in developing sleek and contemporary websites, web services, online stores, 
   and incorporating graphic design elements. My focus is on delivering visually appealing and 
   functional designs that effectively cater to the unique needs of each customer.`,
-  btnText: "HIRE ME",
-  btnText2: "My Work",
+  btnText: "PORTFOLIO",
+  btnText2: "HIRE ME",
 };
 
 const Slider = () => {
@@ -91,6 +91,20 @@ const Slider = () => {
                     download
                   >
                     {sliderContent.btnText}
+                  </a>
+                </div>
+                <div
+                  className="mt-4"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                  data-aos-delay="400"
+                >
+                  <a
+                    className="px-btn btn-outline"
+                    href="img/resume.png"
+                    download
+                  >
+                    {sliderContent.btnText2}
                   </a>
                 </div>
               </div>

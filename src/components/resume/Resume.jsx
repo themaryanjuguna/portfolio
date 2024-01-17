@@ -3,11 +3,11 @@ import Skills from "../skills/Skills";
 
 const resumeContent = [
   {
-    jobPosition: `Sr. Front-end Engineer`,
-    jobType: `Google | Remote`,
-    jobDuration: `Feb 2021 - Present`,
+    jobPosition: `Digital Learning Programme - DLP ICT Officer`,
+    jobType: `Internship`,
+    jobDuration: `Feb 2023 - Present`,
     timeDuraton: `Full Time`,
-    compnayName: "Google LLC",
+    compnayName: "Ministry Of Education, Kenya (MOE)",
     jobDescription: `Adipisicing Lorem ipsum dolor sit amet, consectetur elit,
     sed do eiusmod tempor incididunt ut labore et dolore magna
     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -15,11 +15,11 @@ const resumeContent = [
     Duis aute irure dolor.`,
   },
   {
-    jobPosition: `Visual Designer`,
-    jobType: `Ridian | Remote`,
-    jobDuration: `Mar 2020 - Present`,
+    jobPosition: `Branding and Social Media Consultant`,
+    jobType: `WTD Kenya | Remote`,
+    jobDuration: `Mar 2020 - 2023`,
     timeDuraton: `Part Time`,
-    compnayName: "Ridian IT",
+    compnayName: "World Top Destinations",
     jobDescription: `Ut enim ad minim veniam, quis nostrud exercitation ullamco
     laboris nisi ut aliquip ex ea commodo consequat. Duis aute
     irure dolor. Lorem ipsum dolor sit amet, consectetur
@@ -27,11 +27,35 @@ const resumeContent = [
     labore et dolore magna aliqua.`,
   },
   {
-    jobPosition: `Animation Artist`,
-    jobType: `IbThemes | Remote`,
+    jobPosition: `Branding and Social Media Consultant`,
+    jobType: `BakeKing Solutions | Hybrid`,
+    jobDuration: `Jan 2019 - Present`,
+    timeDuraton: `Part Time`,
+    compnayName: "BakeKing Solutions",
+    jobDescription: ` Consectetur adipisicing elit,lorem ipsum dolor sit amet,
+    sed do eiusmod tempor incididunt ut labore et dolore magna
+    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor.`,
+  },
+  {
+    jobPosition: `Digital Marketing Executive (Office & Marketing Support)`,
+    jobType: `BBROOD Kenya | on-site`,
     jobDuration: `Jan 2019 - Present`,
     timeDuraton: `Full Time`,
-    compnayName: "IB Themes",
+    compnayName: "BBROOD Kenya",
+    jobDescription: ` Consectetur adipisicing elit,lorem ipsum dolor sit amet,
+    sed do eiusmod tempor incididunt ut labore et dolore magna
+    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor.`,
+  },
+  {
+    jobPosition: `Digital Marketing Executive`,
+    jobType: `FCM Travel Kenya| Remote`,
+    jobDuration: `Nov 2009 - Sept 2016`,
+    timeDuraton: `Full Time`,
+    compnayName: "FCM Travel Solutions, Kenya",
     jobDescription: ` Consectetur adipisicing elit,lorem ipsum dolor sit amet,
     sed do eiusmod tempor incididunt ut labore et dolore magna
     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
