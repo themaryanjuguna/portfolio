@@ -32,29 +32,45 @@ export default function SimpleSlider() {
   const TestimonilContent = [
     {
       imageName: "team-1",
-      desc: `  Lorem Ipsum is simply dummy text of the printing and
-      typesetting industry. Lorem Ipsum has been the industry's
-      standard dummy text ever since the 1500s.`,
-      reviewerName: "Nancy Byers",
-      designation: "CEO at ib-themes",
+      desc: `Maryanne is highly talented in the sphere of digital marketing. She carries out her tasks with utmost passion and enthusiasm. She is also a team player with a pleasant personality.`,
+      reviewerName: "Elizabeth Kipruto",
+      designation: "FCM Travel Solutions - HR",
       delayAnimation: "",
     },
     {
       imageName: "team-2",
-      desc: ` Lorem Ipsum is simply dummy text of the printing and
-      typesetting industry. Lorem Ipsum has been the industry's
-      standard dummy text ever since the 1500s.`,
-      reviewerName: "Jara Afsari",
-      designation: "CEO at ib-themes",
+      desc: `Maryanne has a creative touch which blends perfectly with her digital marketing skills to get the business message across to customers.`,
+      reviewerName: "Anthony Gathura",
+      designation: "FCM Travel Solutions",
       delayAnimation: "200",
     },
     {
-      imageName: "team-4",
-      desc: ` Lorem Ipsum is simply dummy text of the printing and
-      typesetting industry. Lorem Ipsum has been the industry's
-      standard dummy text ever since the 1500s.`,
-      reviewerName: "Janiaya kiaram",
-      designation: "Visual Designer",
+      imageName: "team-2",
+      desc: ` Maryanne is a very dedicated person at work, great Designer and full of wisdom.`,
+      reviewerName: "Peter Maina Kamuti",
+      designation: "STA Travel Kenya",
+      delayAnimation: "400",
+    },
+    {
+      imageName: "team-2",
+      desc: ` Maryanne is hardworking,creative/innovative and very enthusiastic in her work. 
+      She is also result oriented person who always attempts to create harmony when working with others. She is reliable and confident.`,
+      reviewerName: "Simon Gitau",
+      designation: "Former Deputy Warden - Mt. Kenya National Park and Reserve",
+      delayAnimation: "400",
+    },
+    {
+      imageName: "team-2",
+      desc: ` Maryanne is a knowledgeable and dutiful student. She takes instructions well and is able to communicate eloquently. She is a very respectiful. She takes initiative in her work and needs minimal supervision.She is well versed with environmental issues. I recommend her any employer.`,
+      reviewerName: "Isabella Mbandi",
+      designation: "Lecturer at Center for Tourism, Training & Research",
+      delayAnimation: "400",
+    },
+    {
+      imageName: "team-2",
+      desc: ` innovative and hands on`,
+      reviewerName: "Nduta Mwangi",
+      designation: "Founder Everything Maternity Kenya",
       delayAnimation: "400",
     },
   ];
