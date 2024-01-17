@@ -42,19 +42,29 @@ const resumeContent = [
 
 const educatonContent = [
   {
-    passingYear: "2018-2020",
-    degreeTitle: "Ph.D in Horriblensess",
-    instituteName: "University Of Evil Doing",
+    passingYear: "2022-Present",
+    degreeTitle: "Bsc. Computer Science,",
+    instituteName: "Kibo School of Technology",
   },
   {
-    passingYear: "2013-2016",
-    degreeTitle: "Bsc. in Computer Science",
-    instituteName: "World University",
+    passingYear: "2022",
+    degreeTitle: "Software Development for Android BootCamp",
+    instituteName: "Moringa School",
   },
   {
-    passingYear: "2010-2012",
-    degreeTitle: "Graphic Artist Training ",
-    instituteName: "Graphic Master Institute",
+    passingYear: "2013-2014",
+    degreeTitle: "Diploma in Web Design",
+    instituteName: "Graffins College",
+  },
+  {
+    passingYear: "2008-2009",
+    degreeTitle: "Certificate in Tour Guiding and Administration",
+    instituteName: "Centre for Tourism Training and Research (CTTR)",
+  },
+  {
+    passingYear: "2004-2007",
+    degreeTitle: "Kenya Certificate of Secondary Education, Grade: C-",
+    instituteName: "Huruma Girls High School ",
   },
 ];
 

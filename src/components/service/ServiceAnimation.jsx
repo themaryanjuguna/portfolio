@@ -10,10 +10,16 @@ const ServiceContent = [
   },
   {
     icon: "icon-desktop",
-    title: "Web Development",
+    title: "Graphic Design",
     descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
     delayAnimation: "200",
+  },
+  {
+    icon: "icon-desktop",
+    title: "Web Development",
+    descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
     icon: "icon-target",
