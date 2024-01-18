@@ -87,7 +87,7 @@ const Slider = () => {
                 >
                   <a
                     className="px-btn px-btn-white"
-                    href="img/resume.png"
+                    href="#work"
                     download
                   >
                     {sliderContent.btnText}
@@ -101,7 +101,7 @@ const Slider = () => {
                 >
                   <a
                     className="px-btn btn-outline"
-                    href="img/resume.png"
+                    href="#contactus"
                     download
                   >
                     {sliderContent.btnText2}

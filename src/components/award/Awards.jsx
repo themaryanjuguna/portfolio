@@ -9,8 +9,8 @@ const AwardContnet = [
   },
   {
     img: "a2",
-    awardName: "May 2015 Employee of the Month",
-    awardFor: "In recognition and appreciation of significant website developments and improvement of online brand presence in 2014",
+    awardName: "Employee of the Month",
+    awardFor: "In recognition and appreciation of significant ISIC website developments and improvement of online brand presence in 2014 - May 2015 Award",
     delayAnimation: "200",
   },
   {

@@ -34,21 +34,21 @@ export default function SimpleSlider() {
       imageName: "team-1",
       desc: `Maryanne is highly talented in the sphere of digital marketing. She carries out her tasks with utmost passion and enthusiasm. She is also a team player with a pleasant personality.`,
       reviewerName: "Elizabeth Kipruto",
-      designation: "FCM Travel Solutions - HR",
+      designation: "HR - FCM Travel Solutions",
       delayAnimation: "",
     },
     {
       imageName: "team-2",
       desc: `Maryanne has a creative touch which blends perfectly with her digital marketing skills to get the business message across to customers.`,
       reviewerName: "Anthony Gathura",
-      designation: "FCM Travel Solutions",
+      designation: "Marketing Manager - FCM Travel Solutions",
       delayAnimation: "200",
     },
     {
       imageName: "team-2",
       desc: ` Maryanne is a very dedicated person at work, great Designer and full of wisdom.`,
       reviewerName: "Peter Maina Kamuti",
-      designation: "STA Travel Kenya",
+      designation: "Head of Department - FCM Travel Solutions",
       delayAnimation: "400",
     },
     {
@@ -68,7 +68,7 @@ export default function SimpleSlider() {
     },
     {
       imageName: "team-2",
-      desc: ` innovative and hands on`,
+      desc: ` Innovative and hands on`,
       reviewerName: "Nduta Mwangi",
       designation: "Founder Everything Maternity Kenya",
       delayAnimation: "400",
