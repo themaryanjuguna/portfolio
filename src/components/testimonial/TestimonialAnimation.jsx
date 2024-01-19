@@ -60,14 +60,14 @@ export default function SimpleSlider() {
       delayAnimation: "400",
     },
     {
-      imageName: "team-2",
+      imageName: "team-1",
       desc: ` Maryanne is a knowledgeable and dutiful student. She takes instructions well and is able to communicate eloquently. She is a very respectiful. She takes initiative in her work and needs minimal supervision.She is well versed with environmental issues. I recommend her any employer.`,
       reviewerName: "Isabella Mbandi",
       designation: "Lecturer at Center for Tourism, Training & Research",
       delayAnimation: "400",
     },
     {
-      imageName: "team-2",
+      imageName: "team-1",
       desc: ` Innovative and hands on`,
       reviewerName: "Nduta Mwangi",
       designation: "Founder Everything Maternity Kenya",

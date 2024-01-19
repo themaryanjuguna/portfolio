@@ -30,7 +30,7 @@ const SliderFive = () => {
                   <p className="loop-text lead">Narcolepsy Patient Advocate</p>
                 </TextLoop>{" "}
                 <p className="desc">{sliderContent.description}</p>
-                <div className="d-flex btn-wrapper">
+                <div className="">
                   <a className="px-btn px-btn-theme mr-4" href="#work">
                     {sliderContent.btnText2}
                   </a>

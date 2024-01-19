@@ -79,6 +79,7 @@ const Slider = () => {
                 >
                   {sliderContent.description}
                 </p>
+                <div className="d-flex gap-4 btn-wrapper">
                 <div
                   className="mt-4"
                   data-aos="fade-up"
@@ -88,7 +89,6 @@ const Slider = () => {
                   <a
                     className="px-btn px-btn-white"
                     href="#work"
-                    download
                   >
                     {sliderContent.btnText}
                   </a>
@@ -102,16 +102,21 @@ const Slider = () => {
                   <a
                     className="px-btn btn-outline"
                     href="#contactus"
-                    download
                   >
                     {sliderContent.btnText2}
                   </a>
+                </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
         {/* End Container*/}
+        <div className="go-to go-to-next">
+          <a href="#about">
+            <span></span>
+          </a>
+        </div>
         <div
           className="hb-me"
           style={{
