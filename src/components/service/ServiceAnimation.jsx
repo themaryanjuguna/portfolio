@@ -2,7 +2,7 @@ import React from "react";
 
 const ServiceContent = [
   {
-    icon: "gi-GiPalette",
+    icon: "icon-palette",
     title: "Branding Consultant",
     descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
