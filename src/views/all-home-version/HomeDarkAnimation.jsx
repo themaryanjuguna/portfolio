@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../../components/header/Header";
+import HeaderTwo from "../../components/header/Header";
 import Slider from "../../components/slider/SliderAnimation";
 import About from "../../components/about/AboutAnimation";
 import Resume from "../../components/resume/ResumeAnimation";
@@ -17,7 +18,7 @@ const HomeOne = () => {
   );
   return (
     <div className="main-left theme-dark">
-      <Header />
+      <HeaderTwo />
       {/* End Header Section */}
 
       <Slider />

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Scrollspy from "react-scrollspy";
 import { Link } from "react-router-dom";
-import ReactTooltip from "react-tooltip";
 import {
   FiUser,
   FiBriefcase,
@@ -10,7 +9,7 @@ import {
 } from "react-icons/fi";
 import { FaHome, FaBlog } from "react-icons/fa";
 
-const Header = () => {
+const HeaderTwo = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 
@@ -29,11 +28,17 @@ const Header = () => {
       {/* End Header */}
 
       {/* nav bar */}
-      <header className={click ? "header-left menu-open" : "header-left "}>
+      <header
+        className={
+          click
+            ? "header-left header-menu-style-two menu-open"
+            : "header-left header-menu-style-two"
+        }
+      >
         <div className="scroll-bar">
           <div className="hl-top">
             <div className="hl-logo">
-              <Link to="/">N</Link>
+              <Link to="/">MN</Link>
             </div>
           </div>
           {/* End htl-top */}
@@ -45,117 +50,39 @@ const Header = () => {
             offset={-30}
           >
             <li>
-              <a
-                className="nav-link "
-                href="#home"
-                data-tip
-                data-for="HOME"
-                onClick={handleClick}
-              >
+              <a className="nav-link " href="#home" onClick={handleClick}>
                 <FaHome />
-                <ReactTooltip
-                  id="HOME"
-                  place="right"
-                  type="dark"
-                  effect="float"
-                >
-                  <span>Home</span>
-                </ReactTooltip>
+                <span className="item">Home</span>
               </a>
             </li>
             <li>
-              <a
-                className="nav-link"
-                href="#about"
-                data-tip
-                data-for="ABOUT"
-                onClick={handleClick}
-              >
+              <a className="nav-link" href="#about" onClick={handleClick}>
                 <FiUser />
-                <ReactTooltip
-                  id="ABOUT"
-                  place="right"
-                  type="dark"
-                  effect="float"
-                >
-                  <span>About</span>
-                </ReactTooltip>
+                <span className="item">About</span>
               </a>
             </li>
             <li>
-              <a
-                className="nav-link"
-                href="#resume"
-                data-tip
-                data-for="RESUME"
-                onClick={handleClick}
-              >
+              <a className="nav-link" href="#resume" onClick={handleClick}>
                 <FiFileText />
-                <ReactTooltip
-                  id="RESUME"
-                  place="right"
-                  type="dark"
-                  effect="float"
-                >
-                  <span>Resume</span>
-                </ReactTooltip>
+                <span className="item">Resume</span>
               </a>
             </li>
             <li>
-              <a
-                className="nav-link"
-                href="#work"
-                data-tip
-                data-for="WORK"
-                onClick={handleClick}
-              >
+              <a className="nav-link" href="#work" onClick={handleClick}>
                 <FiBriefcase />
-                <ReactTooltip
-                  id="WORK"
-                  place="right"
-                  type="dark"
-                  effect="float"
-                >
-                  <span>Work</span>
-                </ReactTooltip>
+                <span className="item">Work</span>
               </a>
             </li>
             <li>
-              <a
-                className="nav-link"
-                href="#blog"
-                data-tip
-                data-for="BLOG"
-                onClick={handleClick}
-              >
+              <a className="nav-link" href="#blog" onClick={handleClick}>
                 <FaBlog />
-                <ReactTooltip
-                  id="BLOG"
-                  place="right"
-                  type="dark"
-                  effect="float"
-                >
-                  <span>Blog</span>
-                </ReactTooltip>
+                <span className="item">Blog</span>
               </a>
             </li>
             <li>
-              <a
-                className="nav-link"
-                href="#contactus"
-                data-tip
-                data-for="CONTACT"
-                onClick={handleClick}
-              >
+              <a className="nav-link" href="#contactus" onClick={handleClick}>
                 <FiPhoneOutgoing />
-                <ReactTooltip
-                  id="CONTACT"
-                  place="right"
-                  type="dark"
-                  effect="float"
-                >
-                  <span>Contact</span>
-                </ReactTooltip>
+                <span className="item">Contact</span>
               </a>
             </li>
           </Scrollspy>
@@ -166,4 +93,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HeaderTwo;

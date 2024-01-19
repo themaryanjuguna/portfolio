@@ -2,14 +2,14 @@ import React from "react";
 
 const ServiceContent = [
   {
-    icon: "icon-mobile",
-    title: "Web Design",
+    icon: "icon-palette",
+    title: "Branding Consultant",
     descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
     delayAnimation: "",
   },
   {
-    icon: "icon-desktop",
+    icon: "icon-art",
     title: "Graphic Design",
     descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
@@ -22,21 +22,21 @@ const ServiceContent = [
     eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
-    icon: "icon-target",
-    title: "Seo Marketing",
+    icon: "icon-laptop",
+    title: "Web Design",
     descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
     delayAnimation: "400",
   },
   {
-    icon: "icon-desktop",
-    title: "Web Development",
+    icon: "icon-mobile",
+    title: "Digital Marketing",
     descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
   },
   {
     icon: "icon-target",
-    title: "Seo Marketing",
+    title: "SEO Marketing",
     descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
     delayAnimation: "400",
