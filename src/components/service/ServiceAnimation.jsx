@@ -2,14 +2,14 @@ import React from "react";
 
 const ServiceContent = [
   {
-    icon: "icon-palette",
+    icon: "gi-GiPalette",
     title: "Branding Consultant",
     descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
     delayAnimation: "",
   },
   {
-    icon: "icon-art",
+    icon: "icon-crop",
     title: "Graphic Design",
     descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
