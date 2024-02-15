@@ -17,7 +17,7 @@ const tabListContent = [
   {
     porftoliItems: [
       {
-        img: "/img/portfolio/m-portfolio-1.jpg",
+        img: "./img/portfolio/m-portfolio-1.jpg",
         width: 400,
         height: 550,
         title: "Bottle Illustration",
@@ -28,7 +28,7 @@ const tabListContent = [
           "https://dribbble.com/shots/16529339-Beny-Personal-Portfolio-React-Template",
       },
       {
-        img: "/img/portfolio/m-portfolio-2.jpg",
+        img: "./img/portfolio/m-portfolio-2.jpg",
         width: 400,
         height: 400,
         title: "E-Learning App",
@@ -39,7 +39,7 @@ const tabListContent = [
           "https://dribbble.com/shots/16529350-Nairo-Personal-Portfolio-React-Template",
       },
       {
-        img: "/img/portfolio/m-portfolio-3.jpg",
+        img: "./img/portfolio/m-portfolio-3.jpg",
         width: 400,
         height: 700,
         title: "Visual Design",
@@ -50,7 +50,7 @@ const tabListContent = [
           "https://dribbble.com/shots/16529407-Deski-Saas-Software-React-Template",
       },
       {
-        img: "/img/portfolio/m-portfolio-4.jpg",
+        img: "./img/portfolio/m-portfolio-4.jpg",
         width: 400,
         height: 400,
         title: "Business Card",
