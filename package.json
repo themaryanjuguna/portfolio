@@ -1,7 +1,7 @@
 {
   "name": "maryanne",
   "version": "1.1.8",
-  "private": true,
+  "private": false,
   "homepage": "https://themaryanjuguna.github.io/portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
