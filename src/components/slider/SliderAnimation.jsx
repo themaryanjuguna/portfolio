@@ -121,7 +121,7 @@ const Slider = () => {
         <div
           className="hb-me"
           style={{
-            backgroundImage: `url(${"./img/slider/home-banner.png"
+            backgroundImage: `url(${"portfolio/img/slider/home-banner.png"
             })`,
           }}
         ></div>
