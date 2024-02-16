@@ -15,9 +15,9 @@ const breakpointColumnsObj = {
 const tabList = ["All", "Branding", "Packaging", "Web Design", "Marketing Materials"];
 const tabListContent = [
   {
-    porftoliItems: [
+    portfoliItems: [
       {
-        img: "img/portfolio/m-portfolio-1.jpg",
+        img: "./img/portfolio/m-portfolio-1.jpg",
         width: 400,
         height: 550,
         title: "Bottle Illustration",
@@ -28,7 +28,7 @@ const tabListContent = [
           "https://dribbble.com/shots/16529339-Beny-Personal-Portfolio-React-Template",
       },
       {
-        img: "img/portfolio/m-portfolio-2.jpg",
+        img: "./img/portfolio/m-portfolio-2.jpg",
         width: 400,
         height: 400,
         title: "E-Learning App",
@@ -117,7 +117,7 @@ const tabListContent = [
     ],
   },
   {
-    porftoliItems: [
+    portfoliItems: [
       {
         img: "img/portfolio/m-portfolio-6.jpg",
         width: 400,
