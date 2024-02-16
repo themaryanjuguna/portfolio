@@ -17,7 +17,7 @@ const tabListContent = [
   {
     porftoliItems: [
       {
-        img: "./img/portfolio/m-portfolio-1.jpg",
+        img: "/img/portfolio/m-portfolio-1.jpg",
         width: 400,
         height: 550,
         title: "Bottle Illustration",
