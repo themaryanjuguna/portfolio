@@ -161,8 +161,7 @@ const About = () => {
           <div
             className="separated"
             style={{
-              backgroundImage: `url(${
-                process.env.PUBLIC_URL + "img/about/about-me.jpg"
+              backgroundImage: `url(${"img/about/about-me.jpg"
               })`,
             }}
           ></div>
