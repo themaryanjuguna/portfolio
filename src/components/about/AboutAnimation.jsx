@@ -125,7 +125,7 @@ const About = () => {
             className="separated"
             style={{
               backgroundImage: `url(${
-                process.env.PUBLIC_URL + "img/border-dark.png"
+                process.env.PUBLIC_URL + "portfolio/img/border-dark.png"
               })`,
             }}
           ></div>
