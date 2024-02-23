@@ -54,7 +54,7 @@ const resumeContent = [
   },
   {
     jobPosition: `Digital Marketing Executive`,
-    jobType: `FCM Travel Kenya| Remote`,
+    jobType: `FCM Travel Kenya | On-Site`,
     jobDuration: `Nov 2009 - Sept 2016`,
     timeDuraton: `Full Time`,
     compnayName: "FCM Travel Solutions, Kenya",
