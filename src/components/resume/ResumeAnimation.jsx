@@ -8,11 +8,11 @@ const resumeContent = [
     jobDuration: `Feb 2023 - Present`,
     timeDuraton: `Full Time`,
     compnayName: "Ministry Of Education, Kenya (MOE)",
-    jobDescription: `Adipisicing Lorem ipsum dolor sit amet, consectetur elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor.`,
+    jobDescription: `
+    DLP ICT Intern at Ministry of Education from Feb 2023 to Feb 2024. 
+    Contributed to KEMIS and ElimuTrees UI design, created engaging content, 
+    and facilitated communication between the ministry and teachers. 
+    Enhanced digital education outcomes in Kenyan public primary schools.`,
   },
   {
     jobPosition: `Branding and Social Media Consultant`,
@@ -20,11 +20,11 @@ const resumeContent = [
     jobDuration: `Mar 2020 - 2023`,
     timeDuraton: `Part Time`,
     compnayName: "World Top Destinations",
-    jobDescription: `Ut enim ad minim veniam, quis nostrud exercitation ullamco
-    laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-    irure dolor. Lorem ipsum dolor sit amet, consectetur
-    adipisicing elit, sed do eiusmod tempor incididunt ut
-    labore et dolore magna aliqua.`,
+    jobDescription: `Enhanced brand identity with a new logo and refreshed corporate visuals. 
+    Revamped promotional materials like social media posts, flyers, and catalogs. 
+    Created an e-Commerce website. Boosted online traffic through Social Media Marketing 
+    and Search Engine Optimization. Increased sales with a new WordPress-based eCommerce platform. 
+    Expanded brand awareness through effective marketing materials and broader social media reach.`,
   },
   {
     jobPosition: `Branding and Social Media Consultant`,
@@ -32,11 +32,11 @@ const resumeContent = [
     jobDuration: `Jan 2019 - Present`,
     timeDuraton: `Part Time`,
     compnayName: "BakeKing Solutions",
-    jobDescription: ` Consectetur adipisicing elit,lorem ipsum dolor sit amet,
-    sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor.`,
+    jobDescription: `Improved brand image through logo and packaging redesign. 
+    Increased online traffic and sales with a new e-Commerce site. 
+    Raised brand awareness through marketing materials and expanded social media presence. 
+    Employed Figma and Adobe Premier, Illustrator, Indesign tools for visuals and 
+    Facebook Manager, Google tools for online marketing success.`,
   },
   {
     jobPosition: `Office Admin & Marketing Support`,
@@ -44,23 +44,26 @@ const resumeContent = [
     jobDuration: `Jan 2019 - Present`,
     timeDuraton: `Full Time`,
     compnayName: "BBROOD Kenya",
-    jobDescription: ` Consectetur adipisicing elit,lorem ipsum dolor sit amet,
-    sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor.`,
+    jobDescription: ` 
+    I created marketing materials per global brand guidelines, trained staff on their use, 
+    and did product photography. Managed marketing campaigns across platforms, using 
+    Google Analytics and Facebook Pixels for better results. Boosted social media engagement and SEO. 
+    Set up an Excel system for personnel records. Resolved complaints and managed calls, 
+    leading to 90% customer satisfaction. Ensured on-time deliveries to customers and
+    BBROOD outlets at a rate of 95%`,
   },
   {
     jobPosition: `Digital Marketing Executive`,
-    jobType: `FCM Travel Kenya| Remote`,
+    jobType: `FCM Travel Kenya | On-Site`,
     jobDuration: `Nov 2009 - Sept 2016`,
     timeDuraton: `Full Time`,
     compnayName: "FCM Travel Solutions, Kenya",
-    jobDescription: ` Consectetur adipisicing elit,lorem ipsum dolor sit amet,
-    sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor.`,
+    jobDescription: `Created marketing materials using Adobe Creative Suite, following global brand guidelines, 
+    and trained team members on their effective use. Executed impactful marketing campaigns across print, broadcast, 
+    and online platforms. Developed and managed websites, blogs, and social media pages, resulting in increased 
+    brand awareness. Managed client databases, sent regular newsletters, and updated company systems to enhance 
+    efficiency. Conducted SEO and used Google Analytics to track website performance, improving visibility and traffic.
+    Coordinated marketing communication and designed newsletters, improving engagement. Provided IT support for smooth operations.`,
   },
 ];
 
