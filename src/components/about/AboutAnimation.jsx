@@ -79,10 +79,6 @@ const About = () => {
                           <span>Maryanne Nyambura</span>
                         </li>
                         <li>
-                          <label>Year of Birth: </label>
-                          <span>1989</span>
-                        </li>
-                        <li>
                           <label>Linkree: </label>
                           <span><a href="https://linktr.ee/themaryanjuguna" target="_blank" rel="noreferrer">Linktree</a></span>
                         </li>
@@ -94,10 +90,6 @@ const About = () => {
                     </div>
                     <div className="col-sm-6">
                       <ul>
-                        <li>
-                          <label>Phone: </label>
-                          <span>(+254)727 680 056</span>
-                        </li>
                         <li>
                           <label>Email: </label>
                           <span>marianne.njuguna@gmail.com</span>
