@@ -116,8 +116,7 @@ const About = () => {
           <div
             className="separated"
             style={{
-              backgroundImage: `url(${
-                process.env.PUBLIC_URL + "portfolio/img/border-dark.png"
+              backgroundImage: `url(${"portfolio/img/border-dark.png"
               })`,
             }}
           ></div>
@@ -135,8 +134,7 @@ const About = () => {
           <div
             className="separated"
             style={{
-              backgroundImage: `url(${
-                process.env.PUBLIC_URL + "img/border-dark.png"
+              backgroundImage: `url(${"img/border-dark.png"
               })`,
             }}
           ></div>
