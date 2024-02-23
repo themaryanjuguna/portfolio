@@ -48,27 +48,14 @@ const About = () => {
                 </div>
 
                 <div className="about-text">
-                  <p>I'm a seasoned branding consultant with over a decade of experience, located in Nairobi, Kenya, 
-                    and actively engaged in online projects. My expertise lies in graphic and WordPress design, with a 
-                    focus on frontend development. 
-                  </p>
-                  <p>As an aspiring UX/UI Designer, I am passionate and skilled in creating meaningful and visually 
-                  appealing designs. Currently pursuing a degree in Computer Science at Kibo School, I am inspired to 
-                  expand my knowledge in inclusive design to develop solutions that empower diverse users through 
-                  accessible and user-friendly design practices.
-                  </p>
-                  <p>
-                  In addition to my roles as a branding consultant and designer, I am a dedicated Patient Advocate 
-                  committed to raising awareness about narcolepsy and non-communicable diseases (NCDs).
-                  With a fervent belief in the power of advocacy, I actively engage in initiatives to promote understanding 
-                  and knowledge about narcolepsy, advocating for greater support and resources for individuals affected by 
-                  this condition. Additionally, my commitment extends to addressing broader issues related to non-communicable diseases, 
-                  working towards fostering a healthier and more informed community. 
-                  </p>
-                  <p> 
-                  Through my multifaceted approach, I aim to contribute to a society that is well-informed, empathetic, 
-                  and supportive of individuals facing health challenges.
-                  </p>
+                  <p>I'm a seasoned branding consultant with over a decade of experience, located in Nairobi, Kenya, and actively engaged in online projects. My expertise lies in graphic and WordPress design, with a focus on frontend development. </p>
+
+                  <p>As a Product Designer, I am passionate and skilled in creating meaningful and visually appealing designs. Currently pursuing a degree in Computer Science at Kibo School, I am inspired to expand my knowledge in inclusive design to develop solutions that empower diverse users through accessible and user-friendly design practices. </p>
+
+                  <p>I am also a dedicated Patient Advocate committed to raising awareness about narcolepsy and non-communicable diseases (NCDs). With a strong belief in the power of advocacy, I actively engage in initiatives to promote understanding and knowledge about narcolepsy, advocating for greater support and resources for individuals affected by this condition. Additionally, my commitment extends to addressing broader issues related to non-communicable diseases, working towards fostering a healthier and more informed community. </p>
+
+                  <p>Through my multifaceted approach, I aim to contribute to a society that is well-informed, empathetic, and supportive of individuals facing health challenges.</p>
+
                 </div>
                 <div className="info-list">
                   <div className="row">
@@ -116,7 +103,7 @@ const About = () => {
           <div
             className="separated"
             style={{
-              backgroundImage: `url(${"portfolio/img/border.png"
+              backgroundImage: `url(${"portfolio/img/border-dark.png"
               })`,
             }}
           ></div>
@@ -134,7 +121,7 @@ const About = () => {
           <div
             className="separated"
             style={{
-              backgroundImage: `url(${"img/border.png"
+              backgroundImage: `url(${"img/border-dark.png"
               })`,
             }}
           ></div>
