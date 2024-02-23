@@ -63,10 +63,7 @@ const Slider = () => {
                   data-aos-delay="200"
                 >
                   <TextLoop>
-                  <p className="loop-text lead">Branding Consultant</p>
-                  <p className="loop-text lead">Graphic Designer</p>
-                  <p className="loop-text lead">WordPress Designer</p>
-                  <p className="loop-text lead">UI/UX Designer</p>
+                  <p className="loop-text lead">Product Designer</p>
                   <p className="loop-text lead">Front-End Developer</p>
                   <p className="loop-text lead">Narcolepsy Patient Advocate</p>
                   </TextLoop>
