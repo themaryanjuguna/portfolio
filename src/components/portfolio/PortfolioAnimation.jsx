@@ -12,7 +12,7 @@ const breakpointColumnsObj = {
   500: 1,
 };
 
-const tabList = ["All", "Branding", "Packaging", "Web Design", "Marketing Materials"];
+const tabList = ["All", "Corporate Identity", "Packaging", "Web Design", "Marketing Materials"];
 const tabListContent = [
   {
     portfoliItems: [

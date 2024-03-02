@@ -3,42 +3,37 @@ import React from "react";
 const ServiceContent = [
   {
     icon: "icon-strategy",
-    title: "Branding Consultant",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    title: "Product Design",
+    descriptions: `In the realm of Product Design, I conceptualize and craft intuitive solutions that marry form and function, enriching user experiences and driving product success.`,
     delayAnimation: "",
+  },
+  {
+    icon: "icon-cloud",
+    title: "Frontend Development",
+    descriptions: `As a proficient Frontend Developer, I bring designs to life with clean and responsive code, ensuring seamless user interactions and optimal website performance.`,
+    delayAnimation: "200",
   },
   {
     icon: "icon-tools",
     title: "Graphic Design",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
-    delayAnimation: "200",
-  },
-  {
-    icon: "icon-cloud",
-    title: "Web Development",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    descriptions: `Through innovative Graphic Design, I transform concepts into visually stunning creations, captivating audiences and leaving a lasting impression`,
   },
   {
     icon: "icon-laptop",
-    title: "Web Design",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    title: "WordPress Design",
+    descriptions: `With expertise in WordPress Design, I create dynamic and user-friendly websites that seamlessly blend aesthetics with functionality, enhancing online presence and user experience.`,
     delayAnimation: "400",
   },
   {
     icon: "icon-mobile",
     title: "Digital Marketing",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    descriptions: `In the realm of Digital Marketing, I utilize cutting-edge strategies to drive engagement and deliver measurable results, propelling businesses toward success.
+    `,
   },
   {
     icon: "icon-target",
-    title: "SEO Marketing",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    title: "Branding Consultant",
+    descriptions: `As a skilled Branding Consultant, I craft captivating narratives that resonate with audiences, ensuring brands stand out in today's competitive landscape.`,
     delayAnimation: "400",
   },
 ];
