@@ -17,15 +17,15 @@ const tabListContent = [
   {
     portfoliItems: [
       {
-        img: "img/portfolio/m-portfolio-1.jpg",
+        img: "img/portfolio/Tote-Bag-Mockup-Hanging.png",
         width: 400,
         height: 550,
-        title: "Bottle Illustration",
-        subTitle: "Figma Shoot",
-        alterText: "Bottle Illustration",
+        title: "Tote Bag Illustration",
+        subTitle: "Narcolepsy Campaign",
+        alterText: "Tote Bag Illustration",
         delayAnimation: "",
         portfolioLink:
-          "https://dribbble.com/shots/16529339-Beny-Personal-Portfolio-React-Template",
+          "https://usingiziinitiative.medium.com/",
       },
       {
         img: "img/portfolio/m-portfolio-2.jpg",
