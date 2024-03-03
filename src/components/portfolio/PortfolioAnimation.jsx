@@ -17,7 +17,7 @@ const tabListContent = [
   {
     portfolioItems: [
       {
-        img: "img/portfolio/tote-bag-mockup-hanging.png",
+        img: "img/portfolio/tote-bag.png",
         width: 400,
         height: 550,
         title: "Tote Bag Illustration",
@@ -61,6 +61,17 @@ const tabListContent = [
           "https://linktr.ee/themaryanjuguna",
       },
       {
+        img: "img/portfolio/Hardcover-Book.png",
+        width: 400,
+        height: 700,
+        title: "Flyer Design",
+        subTitle: "Corporate Identity",
+        alterText: "Flyer Mockup",
+        delayAnimation: "200",
+        portfolioLink:
+          "https://linktr.ee/themaryanjuguna",
+      },
+      {
         img: "img/portfolio/smart-learners.png",
         width: 400,
         height: 400,
@@ -89,6 +100,17 @@ const tabListContent = [
         title: "Roll Up Banner",
         subTitle: "Marketing Materials",
         alterText: "Roll Up Banner",
+        delayAnimation: "100",
+        portfolioLink:
+          "https://linktr.ee/themaryanjuguna",
+      },
+      {
+        img: "img/portfolio/billboard-mockup.png",
+        width: 400,
+        height: 700,
+        title: "Billboard Banner",
+        subTitle: "Marketing Materials",
+        alterText: "Billboard Banner",
         delayAnimation: "100",
         portfolioLink:
           "https://linktr.ee/themaryanjuguna",
