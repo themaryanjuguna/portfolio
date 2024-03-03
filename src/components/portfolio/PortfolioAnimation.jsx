@@ -109,7 +109,7 @@ const tabListContent = [
         width: 400,
         height: 700,
         title: "Roll Up Banner",
-        subTitle: "Marketin",
+        subTitle: "Marketing",
         alterText: "Roll Up Banner",
         delayAnimation: "100",
         portfolioLink:
@@ -159,6 +159,17 @@ const tabListContent = [
         portfolioLink: "https://www.behance.net/gallery/30539859/ISIC-Co-branded-Cards-in-Kenya",
       },
       {
+        img: "img/portfolio/handwash.png",
+        width: 400,
+        height: 700,
+        title: "Handwash Label Design",
+        subTitle: "Product",
+        alterText: "Handwash Label Design",
+        delayAnimation: "200",
+        portfolioLink:
+          "linktr.ee/themaryanjuguna",
+      },
+      {
         img: "img/portfolio/isic-academic-cobranded-card.png",
         width: 400,
         height: 400,
@@ -171,23 +182,12 @@ const tabListContent = [
       {
         img: "img/portfolio/bakeking-home.png",
         width: 400,
-        height: 700,
+        height: 500,
         title: "BakeKing Home Cake Mix Packaging",
         subTitle: "Product",
         alterText: "BakeKing Home Cake Mix Packaging",
         delayAnimation: "100",
         portfolioLink: "https://www.behance.net/gallery/30539859/ISIC-Co-branded-Cards-in-Kenya",
-      },
-      {
-        img: "img/portfolio/handwash.png",
-        width: 400,
-        height: 700,
-        title: "Handwash Label Design",
-        subTitle: "Product",
-        alterText: "Handwash Label Design",
-        delayAnimation: "200",
-        portfolioLink:
-          "linktr.ee/themaryanjuguna",
       },
       {
         img: "img/portfolio/bakeking-granola.png",
@@ -278,7 +278,7 @@ const tabListContent = [
       {
         img: "img/portfolio/bakeking-home.png",
         width: 400,
-        height: 700,
+        height: 550,
         title: "BakeKing Home Cake Mix Packaging",
         subTitle: "Product",
         alterText: "BakeKing Home Cake Mix Packaging",
@@ -288,7 +288,7 @@ const tabListContent = [
       {
         img: "img/portfolio/handwash.png",
         width: 400,
-        height: 700,
+        height: 550,
         title: "Handwash Label Design",
         subTitle: "Product",
         alterText: "Handwash Label Design",
