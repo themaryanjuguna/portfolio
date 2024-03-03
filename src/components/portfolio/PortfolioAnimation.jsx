@@ -41,7 +41,7 @@ const tabListContent = [
       {
         img: "img/portfolio/waridi-headers.png",
         width: 400,
-        height: 700,
+        height: 500,
         title: "Letterhead Design",
         subTitle: "Corporate Identity",
         alterText: "Letterhead Mockup",
@@ -1136,7 +1136,7 @@ const tabListContent = [
       {
         img: "img/portfolio/Mobile-app-mockup.png",
         width: 400,
-        height: 550,
+        height: 400,
         title: "Property Management Android App Design",
         subTitle: "App Design",
         alterText: "Moringa Team Project",
