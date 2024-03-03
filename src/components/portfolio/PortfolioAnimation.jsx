@@ -52,7 +52,7 @@ const tabListContent = [
       {
         img: "img/portfolio/flyer.png",
         width: 400,
-        height: 700,
+        height: 500,
         title: "Flyer Design",
         subTitle: "Corporate Identity",
         alterText: "Flyer Mockup",
@@ -63,7 +63,7 @@ const tabListContent = [
       {
         img: "img/portfolio/Hardcover-Book.png",
         width: 400,
-        height: 700,
+        height: 500,
         title: "Flyer Design",
         subTitle: "Corporate Identity",
         alterText: "Flyer Mockup",
@@ -107,7 +107,7 @@ const tabListContent = [
       {
         img: "img/portfolio/billboard-mockup.png",
         width: 400,
-        height: 700,
+        height: 500,
         title: "Billboard Banner",
         subTitle: "Marketing Materials",
         alterText: "Billboard Banner",
