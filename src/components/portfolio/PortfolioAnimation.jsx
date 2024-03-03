@@ -15,7 +15,7 @@ const breakpointColumnsObj = {
 const tabList = ["All", "Corporate Identity", "Packaging", "App Design", "Marketing Materials"];
 const tabListContent = [
   {
-    portfoliItems: [
+    portfolioItems: [
       {
         img: "img/portfolio/tote-bag-mockup-hanging.png",
         width: 400,
@@ -89,6 +89,17 @@ const tabListContent = [
         title: "Roll Up Banner",
         subTitle: "Marketing Materials",
         alterText: "Roll Up Banner",
+        delayAnimation: "100",
+        portfolioLink:
+          "https://linktr.ee/themaryanjuguna",
+      },
+      {
+        img: "img/portfolio/hoodie-mockup-front-View.png",
+        width: 400,
+        height: 700,
+        title: "Hoodiw Design",
+        subTitle: "Marketing Materials",
+        alterText: "Hoodie Mockup",
         delayAnimation: "100",
         portfolioLink:
           "https://linktr.ee/themaryanjuguna",
@@ -170,7 +181,7 @@ const PortfolioAnimation = () => {
                   className="my-masonry-grid"
                   columnClassName="my-masonry-grid_column"
                 >
-                  {tabContent.portfoliItems.map((val, i) => (
+                  {tabContent.portfolioItems.map((val, i) => (
                     <div
                       className="portfolio-box-01"
                       key={i}
