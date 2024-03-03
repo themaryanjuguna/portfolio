@@ -17,26 +17,26 @@ const tabListContent = [
   {
     portfoliItems: [
       {
-        img: "img/portfolio/Tote-Bag-Mockup-Hanging.png",
+        img: "img/portfolio/tote-bag-mockup-hanging.png",
         width: 400,
         height: 550,
         title: "Tote Bag Illustration",
-        subTitle: "Narcolepsy Campaign",
+        subTitle: "Narcolepsy Awareness Campaign",
         alterText: "Tote Bag Illustration",
         delayAnimation: "",
         portfolioLink:
           "https://usingiziinitiative.medium.com/",
       },
       {
-        img: "img/portfolio/m-portfolio-2.jpg",
+        img: "img/portfolio/waridi-lightbox.png",
         width: 400,
         height: 400,
-        title: "E-Learning App",
-        subTitle: "Nuna ios App",
-        alterText: "Illustration",
+        title: "Waridi Logo",
+        subTitle: "Lightbox",
+        alterText: "Waridi Logo",
         delayAnimation: "100",
         portfolioLink:
-          "https://dribbble.com/shots/16529350-Nairo-Personal-Portfolio-React-Template",
+          "https://linktr.ee/themaryanjuguna",
       },
       {
         img: "img/portfolio/m-portfolio-3.jpg",
@@ -50,7 +50,7 @@ const tabListContent = [
           "https://dribbble.com/shots/16529407-Deski-Saas-Software-React-Template",
       },
       {
-        img: "img/portfolio/m-portfolio-4.jpg",
+        img: "img/portfolio/smart-learners.png",
         width: 400,
         height: 400,
         title: "Business Card",
@@ -58,7 +58,7 @@ const tabListContent = [
         alterText: "E-Cosmetics",
         delayAnimation: "0",
         portfolioLink:
-          "https://dribbble.com/shots/16545341-Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
+          "https://linktr.ee/themaryanjuguna",
       },
       {
         img: "img/portfolio/m-portfolio-5.jpg",
@@ -105,7 +105,7 @@ const tabListContent = [
           "https://www.behance.net/gallery/128278341/Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
       },
       {
-        img: "img/portfolio/m-portfolio-9.jpg",
+        img: "img/portfolio/isic-bank-card.png",
         width: 400,
         height: 400,
         title: "Web Motion",
