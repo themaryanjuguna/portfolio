@@ -116,6 +116,110 @@ const tabListContent = [
       },
     ],
   },
+  {
+    portfoliItems: [
+      {
+        img: "img/portfolio/tote-bag-mockup-hanging.png",
+        width: 400,
+        height: 550,
+        title: "Tote Bag Illustration",
+        subTitle: "Narcolepsy Awareness Campaign",
+        alterText: "Tote Bag Illustration",
+        delayAnimation: "",
+        portfolioLink:
+          "https://usingiziinitiative.medium.com/",
+      },
+      {
+        img: "img/portfolio/waridi-lightbox.png",
+        width: 400,
+        height: 400,
+        title: "Waridi Logo",
+        subTitle: "Lightbox",
+        alterText: "Waridi Logo",
+        delayAnimation: "100",
+        portfolioLink:
+          "https://linktr.ee/themaryanjuguna",
+      },
+      {
+        img: "img/portfolio/waridi-headers.png",
+        width: 400,
+        height: 700,
+        title: "Letterhead Design",
+        subTitle: "Letterhead",
+        alterText: "Letterhead Mockup",
+        delayAnimation: "200",
+        portfolioLink:
+          "https://linktr.ee/themaryanjuguna",
+      },
+      {
+        img: "img/portfolio/smart-learners.png",
+        width: 400,
+        height: 400,
+        title: "Business Card",
+        subTitle: "Graphicriver Market",
+        alterText: "E-Cosmetics",
+        delayAnimation: "0",
+        portfolioLink:
+          "https://linktr.ee/themaryanjuguna",
+      },
+      {
+        img: "img/portfolio/Lamp-Post-Banner-Mockup.png",
+        width: 400,
+        height: 700,
+        title: "Lamp Post Banner",
+        subTitle: "Codecanyon Market",
+        alterText: "Lamp Post Banner",
+        delayAnimation: "100",
+        portfolioLink:
+          "https://dribbble.com/shots/16529158-Waxon-Personal-Portfolio-VueJS-Template-RTL",
+      },
+      {
+        img: "img/portfolio/Website mockup.png",
+        width: 400,
+        height: 500,
+        title: "Web Application",
+        subTitle: "Behance Shot",
+        alterText: "Web Application",
+        delayAnimation: "200",
+        portfolioLink:
+          "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
+      },
+      {
+        img: "img/portfolio/handwash.png",
+        width: 400,
+        height: 700,
+        title: "Handwash Label Design",
+        subTitle: "Graphicriver Market",
+        alterText: "Handwash Label Design",
+        delayAnimation: "0",
+        portfolioLink:
+          "https://dribbble.com/shots/16529282-Shane-Personal-Portfolio-React-Template",
+      },
+      {
+        img: "img/portfolio/Mobile-app-mockup.png",
+        width: 400,
+        height: 550,
+        title: "Property Management App Design",
+        subTitle: "Moringa Team Project",
+        alterText: "Property Management App",
+        delayAnimation: "100",
+        portfolioLink:
+          "https://linktr.ee/themaryanjuguna",
+      },
+      {
+        img: "img/portfolio/isic-bank-card.png",
+        width: 400,
+        height: 400,
+        title: "Web Motion",
+        subTitle: "Behance Shot",
+        alterText: "ISIC Co-branded Financial Bank Card Design",
+        delayAnimation: "200",
+        portfolioLink: "https://www.behance.net/gallery/30539859/ISIC-Co-branded-Cards-in-Kenya",
+      },
+    ],
+  },
+
+
 ];
 
 const PortfolioAnimation = () => {
