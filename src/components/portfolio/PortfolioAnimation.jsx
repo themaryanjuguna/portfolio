@@ -201,7 +201,7 @@ const tabListContent = [
       },
     ],
   },
- 
+//  Branding start
   {
     portfolioItems: [
       {
@@ -238,28 +238,6 @@ const tabListContent = [
           "https://linktr.ee/themaryanjuguna",
       },
       {
-        img: "img/portfolio/Hardcover-Book.png",
-        width: 400,
-        height: 400,
-        title: "Flyer Design",
-        subTitle: "Marketing",
-        alterText: "Flyer Mockup",
-        delayAnimation: "100",
-        portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/flyer.png",
-        width: 400,
-        height: 700,
-        title: "Flyer Design",
-        subTitle: "Marketing",
-        alterText: "Flyer Mockup",
-        delayAnimation: "0",
-        portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
-      },
-      {
         img: "img/portfolio/smart-learners.png",
         width: 400,
         height: 550,
@@ -270,72 +248,13 @@ const tabListContent = [
         portfolioLink:
           "https://linktr.ee/themaryanjuguna",
       },
-      {
-        img: "img/portfolio/lamp-post-banner.png",
-        width: 400,
-        height: 700,
-        title: "Lamp Post Banner",
-        subTitle: "Marketing",
-        alterText: "Lamp Post Banner",
-        delayAnimation: "0",
-        portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/billboard-mockup.png",
-        width: 400,
-        height: 500,
-        title: "Billboard Banner",
-        subTitle: "Marketing",
-        alterText: "Billboard Banner",
-        delayAnimation: "200",
-        portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/Roll-Up-Banner.png",
-        width: 400,
-        height: 700,
-        title: "Roll Up Banner",
-        subTitle: "Marketin",
-        alterText: "Roll Up Banner",
-        delayAnimation: "100",
-        portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/hoodie-mockup-front-View.png",
-        width: 400,
-        height: 700,
-        title: "Hoodie Design",
-        subTitle: "Marketing",
-        alterText: "Hoodie Mockup",
-        delayAnimation: "0",
-        portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/Website-mockup.png",
-        width: 400,
-        height: 500,
-        title: "Web Application Design",
-        subTitle: "Application",
-        alterText: "Web Application Mockup",
-        delayAnimation: "100",
-        portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/Mobile-app-mockup.png",
-        width: 400,
-        height: 550,
-        title: "Property Management Android App Design",
-        subTitle: "Application",
-        alterText: "Moringa Team Project",
-        delayAnimation: "0",
-        portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
-      },
+    ],
+  },
+ 
+  {
+    // Branding end
+    // product start
+    portfolioItems: [  
       {
         img: "img/portfolio/isic-bank-card.png",
         width: 400,
@@ -389,119 +308,10 @@ const tabListContent = [
       },
     ],
   },
- 
+//  product end
+// Application start
   {
     portfolioItems: [
-      {
-        img: "img/portfolio/tote-bag.png",
-        width: 400,
-        height: 550,
-        title: "Tote Bag Illustration",
-        subTitle: "Branding",
-        alterText: "Narcolepsy Awareness Campaign",
-        delayAnimation: "",
-        portfolioLink:
-          "https://usingiziinitiative.medium.com/",
-      },
-      {
-        img: "img/portfolio/waridi-lightbox.png",
-        width: 400,
-        height: 400,
-        title: "Waridi Logo",
-        subTitle: "Branding",
-        alterText: "Logo Lightbox",
-        delayAnimation: "100",
-        portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/waridi-headers.png",
-        width: 400,
-        height: 700,
-        title: "Letterhead Design",
-        subTitle: "Branding",
-        alterText: "Letterhead Mockup",
-        delayAnimation: "200",
-        portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/Hardcover-Book.png",
-        width: 400,
-        height: 400,
-        title: "Flyer Design",
-        subTitle: "Marketing",
-        alterText: "Flyer Mockup",
-        delayAnimation: "100",
-        portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/flyer.png",
-        width: 400,
-        height: 700,
-        title: "Flyer Design",
-        subTitle: "Marketing",
-        alterText: "Flyer Mockup",
-        delayAnimation: "0",
-        portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/smart-learners.png",
-        width: 400,
-        height: 550,
-        title: "Smart Learners Logo",
-        subTitle: "Branding",
-        alterText: "Smart Learners Logo",
-        delayAnimation: "200",
-        portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/lamp-post-banner.png",
-        width: 400,
-        height: 700,
-        title: "Lamp Post Banner",
-        subTitle: "Marketing",
-        alterText: "Lamp Post Banner",
-        delayAnimation: "0",
-        portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/billboard-mockup.png",
-        width: 400,
-        height: 500,
-        title: "Billboard Banner",
-        subTitle: "Marketing",
-        alterText: "Billboard Banner",
-        delayAnimation: "200",
-        portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/Roll-Up-Banner.png",
-        width: 400,
-        height: 700,
-        title: "Roll Up Banner",
-        subTitle: "Marketin",
-        alterText: "Roll Up Banner",
-        delayAnimation: "100",
-        portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/hoodie-mockup-front-View.png",
-        width: 400,
-        height: 700,
-        title: "Hoodie Design",
-        subTitle: "Marketing",
-        alterText: "Hoodie Mockup",
-        delayAnimation: "0",
-        portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
-      },
       {
         img: "img/portfolio/Website-mockup.png",
         width: 400,
@@ -523,96 +333,15 @@ const tabListContent = [
         delayAnimation: "0",
         portfolioLink:
           "https://linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/isic-bank-card.png",
-        width: 400,
-        height: 400,
-        title: "ISIC Co-brand Card Design",
-        subTitle: "Product",
-        alterText: "ISIC Co-branded Financial Bank Card Design",
-        delayAnimation: "100",
-        portfolioLink: "https://www.behance.net/gallery/30539859/ISIC-Co-branded-Cards-in-Kenya",
-      },
-      {
-        img: "img/portfolio/isic-academic-cobranded-card.png",
-        width: 400,
-        height: 400,
-        title: "ISIC Co-brand Card Design",
-        subTitle: "Product",
-        alterText: "International Student Identity Card (ISIC) Co-branded Financial Bank Card Design",
-        delayAnimation: "0",
-        portfolioLink: "https://www.behance.net/gallery/30539859/ISIC-Co-branded-Cards-in-Kenya",
-      },
-      {
-        img: "img/portfolio/bakeking-home.png",
-        width: 400,
-        height: 700,
-        title: "BakeKing Home Cake Mix Packaging",
-        subTitle: "Product",
-        alterText: "BakeKing Home Cake Mix Packaging",
-        delayAnimation: "100",
-        portfolioLink: "https://www.behance.net/gallery/30539859/ISIC-Co-branded-Cards-in-Kenya",
-      },
-      {
-        img: "img/portfolio/handwash.png",
-        width: 400,
-        height: 700,
-        title: "Handwash Label Design",
-        subTitle: "Product",
-        alterText: "Handwash Label Design",
-        delayAnimation: "200",
-        portfolioLink:
-          "linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/bakeking-granola.png",
-        width: 400,
-        height: 500,
-        title: "BakeKing Granola Packaging",
-        subTitle: "Product",
-        alterText: "BakeKing Granola Packaging",
-        delayAnimation: "200",
-        portfolioLink: "https://www.behance.net/gallery/30539859/ISIC-Co-branded-Cards-in-Kenya",
       },
     ],
   },
+
+// Application end
+// Marketing start
  
   {
     portfolioItems: [
-      {
-        img: "img/portfolio/tote-bag.png",
-        width: 400,
-        height: 550,
-        title: "Tote Bag Illustration",
-        subTitle: "Branding",
-        alterText: "Narcolepsy Awareness Campaign",
-        delayAnimation: "",
-        portfolioLink:
-          "https://usingiziinitiative.medium.com/",
-      },
-      {
-        img: "img/portfolio/waridi-lightbox.png",
-        width: 400,
-        height: 400,
-        title: "Waridi Logo",
-        subTitle: "Branding",
-        alterText: "Logo Lightbox",
-        delayAnimation: "100",
-        portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/waridi-headers.png",
-        width: 400,
-        height: 700,
-        title: "Letterhead Design",
-        subTitle: "Branding",
-        alterText: "Letterhead Mockup",
-        delayAnimation: "200",
-        portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
-      },
       {
         img: "img/portfolio/Hardcover-Book.png",
         width: 400,
@@ -632,17 +361,6 @@ const tabListContent = [
         subTitle: "Marketing",
         alterText: "Flyer Mockup",
         delayAnimation: "0",
-        portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/smart-learners.png",
-        width: 400,
-        height: 550,
-        title: "Smart Learners Logo",
-        subTitle: "Branding",
-        alterText: "Smart Learners Logo",
-        delayAnimation: "200",
         portfolioLink:
           "https://linktr.ee/themaryanjuguna",
       },
@@ -673,7 +391,7 @@ const tabListContent = [
         width: 400,
         height: 700,
         title: "Roll Up Banner",
-        subTitle: "Marketin",
+        subTitle: "Marketing",
         alterText: "Roll Up Banner",
         delayAnimation: "100",
         portfolioLink:
@@ -689,267 +407,6 @@ const tabListContent = [
         delayAnimation: "0",
         portfolioLink:
           "https://linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/Website-mockup.png",
-        width: 400,
-        height: 500,
-        title: "Web Application Design",
-        subTitle: "Application",
-        alterText: "Web Application Mockup",
-        delayAnimation: "100",
-        portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/Mobile-app-mockup.png",
-        width: 400,
-        height: 550,
-        title: "Property Management Android App Design",
-        subTitle: "Application",
-        alterText: "Moringa Team Project",
-        delayAnimation: "0",
-        portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/isic-bank-card.png",
-        width: 400,
-        height: 400,
-        title: "ISIC Co-brand Card Design",
-        subTitle: "Product",
-        alterText: "ISIC Co-branded Financial Bank Card Design",
-        delayAnimation: "100",
-        portfolioLink: "https://www.behance.net/gallery/30539859/ISIC-Co-branded-Cards-in-Kenya",
-      },
-      {
-        img: "img/portfolio/isic-academic-cobranded-card.png",
-        width: 400,
-        height: 400,
-        title: "ISIC Co-brand Card Design",
-        subTitle: "Product",
-        alterText: "International Student Identity Card (ISIC) Co-branded Financial Bank Card Design",
-        delayAnimation: "0",
-        portfolioLink: "https://www.behance.net/gallery/30539859/ISIC-Co-branded-Cards-in-Kenya",
-      },
-      {
-        img: "img/portfolio/bakeking-home.png",
-        width: 400,
-        height: 700,
-        title: "BakeKing Home Cake Mix Packaging",
-        subTitle: "Product",
-        alterText: "BakeKing Home Cake Mix Packaging",
-        delayAnimation: "100",
-        portfolioLink: "https://www.behance.net/gallery/30539859/ISIC-Co-branded-Cards-in-Kenya",
-      },
-      {
-        img: "img/portfolio/handwash.png",
-        width: 400,
-        height: 700,
-        title: "Handwash Label Design",
-        subTitle: "Product",
-        alterText: "Handwash Label Design",
-        delayAnimation: "200",
-        portfolioLink:
-          "linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/bakeking-granola.png",
-        width: 400,
-        height: 500,
-        title: "BakeKing Granola Packaging",
-        subTitle: "Product",
-        alterText: "BakeKing Granola Packaging",
-        delayAnimation: "200",
-        portfolioLink: "https://www.behance.net/gallery/30539859/ISIC-Co-branded-Cards-in-Kenya",
-      },
-    ],
-  },
- 
-  {
-    portfolioItems: [
-      {
-        img: "img/portfolio/tote-bag.png",
-        width: 400,
-        height: 550,
-        title: "Tote Bag Illustration",
-        subTitle: "Branding",
-        alterText: "Narcolepsy Awareness Campaign",
-        delayAnimation: "",
-        portfolioLink:
-          "https://usingiziinitiative.medium.com/",
-      },
-      {
-        img: "img/portfolio/waridi-lightbox.png",
-        width: 400,
-        height: 400,
-        title: "Waridi Logo",
-        subTitle: "Branding",
-        alterText: "Logo Lightbox",
-        delayAnimation: "100",
-        portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/waridi-headers.png",
-        width: 400,
-        height: 700,
-        title: "Letterhead Design",
-        subTitle: "Branding",
-        alterText: "Letterhead Mockup",
-        delayAnimation: "200",
-        portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/Hardcover-Book.png",
-        width: 400,
-        height: 400,
-        title: "Flyer Design",
-        subTitle: "Marketing",
-        alterText: "Flyer Mockup",
-        delayAnimation: "100",
-        portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/flyer.png",
-        width: 400,
-        height: 700,
-        title: "Flyer Design",
-        subTitle: "Marketing",
-        alterText: "Flyer Mockup",
-        delayAnimation: "0",
-        portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/smart-learners.png",
-        width: 400,
-        height: 550,
-        title: "Smart Learners Logo",
-        subTitle: "Branding",
-        alterText: "Smart Learners Logo",
-        delayAnimation: "200",
-        portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/lamp-post-banner.png",
-        width: 400,
-        height: 700,
-        title: "Lamp Post Banner",
-        subTitle: "Marketing",
-        alterText: "Lamp Post Banner",
-        delayAnimation: "0",
-        portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/billboard-mockup.png",
-        width: 400,
-        height: 500,
-        title: "Billboard Banner",
-        subTitle: "Marketing",
-        alterText: "Billboard Banner",
-        delayAnimation: "200",
-        portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/Roll-Up-Banner.png",
-        width: 400,
-        height: 700,
-        title: "Roll Up Banner",
-        subTitle: "Marketin",
-        alterText: "Roll Up Banner",
-        delayAnimation: "100",
-        portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/hoodie-mockup-front-View.png",
-        width: 400,
-        height: 700,
-        title: "Hoodie Design",
-        subTitle: "Marketing",
-        alterText: "Hoodie Mockup",
-        delayAnimation: "0",
-        portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/Website-mockup.png",
-        width: 400,
-        height: 500,
-        title: "Web Application Design",
-        subTitle: "Application",
-        alterText: "Web Application Mockup",
-        delayAnimation: "100",
-        portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/Mobile-app-mockup.png",
-        width: 400,
-        height: 550,
-        title: "Property Management Android App Design",
-        subTitle: "Application",
-        alterText: "Moringa Team Project",
-        delayAnimation: "0",
-        portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/isic-bank-card.png",
-        width: 400,
-        height: 400,
-        title: "ISIC Co-brand Card Design",
-        subTitle: "Product",
-        alterText: "ISIC Co-branded Financial Bank Card Design",
-        delayAnimation: "100",
-        portfolioLink: "https://www.behance.net/gallery/30539859/ISIC-Co-branded-Cards-in-Kenya",
-      },
-      {
-        img: "img/portfolio/isic-academic-cobranded-card.png",
-        width: 400,
-        height: 400,
-        title: "ISIC Co-brand Card Design",
-        subTitle: "Product",
-        alterText: "International Student Identity Card (ISIC) Co-branded Financial Bank Card Design",
-        delayAnimation: "0",
-        portfolioLink: "https://www.behance.net/gallery/30539859/ISIC-Co-branded-Cards-in-Kenya",
-      },
-      {
-        img: "img/portfolio/bakeking-home.png",
-        width: 400,
-        height: 700,
-        title: "BakeKing Home Cake Mix Packaging",
-        subTitle: "Product",
-        alterText: "BakeKing Home Cake Mix Packaging",
-        delayAnimation: "100",
-        portfolioLink: "https://www.behance.net/gallery/30539859/ISIC-Co-branded-Cards-in-Kenya",
-      },
-      {
-        img: "img/portfolio/handwash.png",
-        width: 400,
-        height: 700,
-        title: "Handwash Label Design",
-        subTitle: "Product",
-        alterText: "Handwash Label Design",
-        delayAnimation: "200",
-        portfolioLink:
-          "linktr.ee/themaryanjuguna",
-      },
-      {
-        img: "img/portfolio/bakeking-granola.png",
-        width: 400,
-        height: 500,
-        title: "BakeKing Granola Packaging",
-        subTitle: "Product",
-        alterText: "BakeKing Granola Packaging",
-        delayAnimation: "200",
-        portfolioLink: "https://www.behance.net/gallery/30539859/ISIC-Co-branded-Cards-in-Kenya",
       },
     ],
   },
