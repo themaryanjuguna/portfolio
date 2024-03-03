@@ -33,7 +33,7 @@ const News = () => {
         >
           <div className="blog-grid" onClick={toggleModalOne}>
             <div className="blog-img">
-              <img src={`img/blog/blog-4.jpg`} alt="blog post"></img>
+              <img src={`img/blog/HTYRLxskBEhrRWNJZg.jpg`} alt="blog post"></img>
             </div>
             <div className="blog-info">
               <div className="meta">29/FEB/2020 - BY ALEX</div>
@@ -56,10 +56,10 @@ const News = () => {
         >
           <div className="blog-grid" onClick={toggleModalTwo}>
             <div className="blog-img">
-              <img src={`img/blog/blog-2.jpg`} alt="blog post"></img>
+              <img src={`img/blog/HTYRLxskBEhnQWVD.jpg`} alt="blog post"></img>
             </div>
             <div className="blog-info">
-              <div className="meta">05/JAN/2020 - BY SMITH</div>
+              <div className="meta">05/JAN/2020 - BY Nyambura </div>
               <h6>
                 <a>
                   Ten Mind-Blowing Reasons Why Design Is Using This Technique
@@ -79,11 +79,11 @@ const News = () => {
         >
           <div className="blog-grid" onClick={toggleModalThree}>
             <div className="blog-img">
-              <img src={`img/blog/blog-3.jpg`} alt="blog post"></img>
+              <img src={`img/blog/HTYRLxskBEhkRGNJ.jpg`} alt="blog post"></img>
             </div>
 
             <div className="blog-info">
-              <div className="meta">12/AUG/2020 - BY RIO</div>
+              <div className="meta">12/AUG/2020 - BY Nyambura</div>
               <h6>
                 <a>
                   I Will Tell You The Truth About Design In The Next 60 Seconds.
@@ -102,7 +102,7 @@ const News = () => {
         >
           <div className="blog-grid" onClick={toggleModalFour}>
             <div className="blog-img">
-              <img src={`img/blog/blog-1.jpg`} alt="blog post"></img>
+              <img src={`img/blog/aotaro_A Drop Of Rainbow_YUdhQGZb.jpg`} alt="blog post"></img>
             </div>
 
             <div className="blog-info">

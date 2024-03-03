@@ -72,7 +72,7 @@ const tabListContent = [
           "https://linktr.ee/themaryanjuguna",
       },
       {
-        img: "img/portfolio/Lamp-Post-Banner-Mockup.png",
+        img: "img/portfolio/lamp-post-banner.png",
         width: 400,
         height: 700,
         title: "Lamp Post Banner",
@@ -80,7 +80,18 @@ const tabListContent = [
         alterText: "Lamp Post Banner",
         delayAnimation: "100",
         portfolioLink:
-          "https://dribbble.com/shots/16529158-Waxon-Personal-Portfolio-VueJS-Template-RTL",
+          "https://linktr.ee/themaryanjuguna",
+      },
+      {
+        img: "img/portfolio/Roll=Up-Banner.png",
+        width: 400,
+        height: 700,
+        title: "Roll Up Banner",
+        subTitle: "Marketing Materials",
+        alterText: "Roll Up Banner",
+        delayAnimation: "100",
+        portfolioLink:
+          "https://linktr.ee/themaryanjuguna",
       },
       {
         img: "img/portfolio/Website-mockup.png",
@@ -91,7 +102,7 @@ const tabListContent = [
         alterText: "Web Application",
         delayAnimation: "200",
         portfolioLink:
-          "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
+          "https://linktr.ee/themaryanjuguna",
       },
       {
         img: "img/portfolio/handwash.png",
@@ -102,7 +113,7 @@ const tabListContent = [
         alterText: "Handwash Label Design",
         delayAnimation: "0",
         portfolioLink:
-          "https://dribbble.com/shots/16529282-Shane-Personal-Portfolio-React-Template",
+          "linktr.ee/themaryanjuguna",
       },
       {
         img: "img/portfolio/Mobile-app-mockup.png",
@@ -120,7 +131,7 @@ const tabListContent = [
         width: 400,
         height: 400,
         title: "Web Motion",
-        subTitle: "Behance Shot",
+        subTitle: "Corporate Identity",
         alterText: "ISIC Co-branded Financial Bank Card Design",
         delayAnimation: "200",
         portfolioLink: "https://www.behance.net/gallery/30539859/ISIC-Co-branded-Cards-in-Kenya",
@@ -130,7 +141,7 @@ const tabListContent = [
         width: 400,
         height: 400,
         title: "Web Motion",
-        subTitle: "Behance Shot",
+        subTitle: "Corporate Identity",
         alterText: "ISIC Co-branded Financial Bank Card Design",
         delayAnimation: "200",
         portfolioLink: "https://www.behance.net/gallery/30539859/ISIC-Co-branded-Cards-in-Kenya",
