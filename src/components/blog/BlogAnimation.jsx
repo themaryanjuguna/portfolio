@@ -33,7 +33,7 @@ const News = () => {
         >
           <div className="blog-grid" onClick={toggleModalOne}>
             <div className="blog-img">
-              <img src={`img/blog/HTYRLxskBEhrRWNJZg.jpg`} alt="blog post"></img>
+              <img src={`img/blog/HTYRLxskBEhrRWNJZg.png`} alt="blog post"></img>
             </div>
             <div className="blog-info">
               <div className="meta">29/FEB/2020 - BY ALEX</div>
@@ -56,7 +56,7 @@ const News = () => {
         >
           <div className="blog-grid" onClick={toggleModalTwo}>
             <div className="blog-img">
-              <img src={`img/blog/HTYRLxskBEhnQWVD.jpg`} alt="blog post"></img>
+              <img src={`img/blog/HTYRLxskBEhnQWVD.png`} alt="blog post"></img>
             </div>
             <div className="blog-info">
               <div className="meta">05/JAN/2020 - BY Nyambura </div>
@@ -79,7 +79,7 @@ const News = () => {
         >
           <div className="blog-grid" onClick={toggleModalThree}>
             <div className="blog-img">
-              <img src={`img/blog/HTYRLxskBEhkRGNJ.jpg`} alt="blog post"></img>
+              <img src={`img/blog/HTYRLxskBEhkRGNJ.png`} alt="blog post"></img>
             </div>
 
             <div className="blog-info">
@@ -102,7 +102,7 @@ const News = () => {
         >
           <div className="blog-grid" onClick={toggleModalFour}>
             <div className="blog-img">
-              <img src={`img/blog/aotaro_A Drop Of Rainbow_YUdhQGZb.jpg`} alt="blog post"></img>
+              <img src={`img/blog/aotaro_A Drop Of Rainbow_YUdhQGZb.png`} alt="blog post"></img>
             </div>
 
             <div className="blog-info">
@@ -139,7 +139,7 @@ const News = () => {
             <div className="scrollable">
               <div className="blog-grid">
                 <div className="blog-img">
-                  <img src="img/blog/blog-4.jpg" alt="blog post"></img>
+                  <img src="img/blog/HTYRLxskBEhiRGVBa156.png" alt="blog post"></img>
                 </div>
                 {/* End blog-img */}
                 <article className="article">
@@ -487,7 +487,7 @@ const News = () => {
                     </h2>
                     <div className="media">
                       <div className="avatar">
-                        <img src="img/testimonial/team-4.jpg" alt="thumbnail" />
+                        <img src="img/testimonial/team-4.png" alt="thumbnail" />
                       </div>
                       <div className="media-body">
                         <label>BY SVEIL</label>

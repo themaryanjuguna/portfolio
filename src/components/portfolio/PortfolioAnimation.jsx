@@ -52,7 +52,7 @@ const tabListContent = [
       {
         img: "img/portfolio/Hardcover-Book.png",
         width: 400,
-        height: 400,
+        height: 0,
         title: "Flyer Design",
         subTitle: "Marketing",
         alterText: "Flyer Mockup",
@@ -63,7 +63,7 @@ const tabListContent = [
       {
         img: "img/portfolio/flyer.png",
         width: 400,
-        height: 700,
+        height: 500,
         title: "Flyer Design",
         subTitle: "Marketing",
         alterText: "Flyer Mockup",
@@ -182,7 +182,7 @@ const tabListContent = [
       {
         img: "img/portfolio/bakeking-home.png",
         width: 400,
-        height: 500,
+        height: 400,
         title: "BakeKing Home Cake Mix Packaging",
         subTitle: "Product",
         alterText: "BakeKing Home Cake Mix Packaging",
@@ -192,7 +192,7 @@ const tabListContent = [
       {
         img: "img/portfolio/bakeking-granola.png",
         width: 400,
-        height: 500,
+        height: 400,
         title: "BakeKing Granola Packaging",
         subTitle: "Product",
         alterText: "BakeKing Granola Packaging",
@@ -278,7 +278,7 @@ const tabListContent = [
       {
         img: "img/portfolio/bakeking-home.png",
         width: 400,
-        height: 550,
+        height: 400,
         title: "BakeKing Home Cake Mix Packaging",
         subTitle: "Product",
         alterText: "BakeKing Home Cake Mix Packaging",
@@ -288,7 +288,7 @@ const tabListContent = [
       {
         img: "img/portfolio/handwash.png",
         width: 400,
-        height: 550,
+        height: 700,
         title: "Handwash Label Design",
         subTitle: "Product",
         alterText: "Handwash Label Design",
@@ -299,7 +299,7 @@ const tabListContent = [
       {
         img: "img/portfolio/bakeking-granola.png",
         width: 400,
-        height: 500,
+        height: 400,
         title: "BakeKing Granola Packaging",
         subTitle: "Product",
         alterText: "BakeKing Granola Packaging",
@@ -345,7 +345,7 @@ const tabListContent = [
       {
         img: "img/portfolio/Hardcover-Book.png",
         width: 400,
-        height: 400,
+        height: 0,
         title: "Flyer Design",
         subTitle: "Marketing",
         alterText: "Flyer Mockup",
@@ -356,7 +356,7 @@ const tabListContent = [
       {
         img: "img/portfolio/flyer.png",
         width: 400,
-        height: 700,
+        height: 500,
         title: "Flyer Design",
         subTitle: "Marketing",
         alterText: "Flyer Mockup",
@@ -378,7 +378,7 @@ const tabListContent = [
       {
         img: "img/portfolio/billboard-mockup.png",
         width: 400,
-        height: 500,
+        height: 0,
         title: "Billboard Banner",
         subTitle: "Marketing",
         alterText: "Billboard Banner",
