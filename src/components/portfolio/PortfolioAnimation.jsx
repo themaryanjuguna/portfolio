@@ -19,7 +19,7 @@ const tabListContent = [
       {
         img: "img/portfolio/tote-bag.png",
         width: 400,
-        height: 550,
+        height: 0,
         title: "Tote Bag Illustration",
         subTitle: "Branding",
         alterText: "Narcolepsy Awareness Campaign",
@@ -74,7 +74,7 @@ const tabListContent = [
       {
         img: "img/portfolio/smart-learners.png",
         width: 400,
-        height: 550,
+        height: 400,
         title: "Smart Learners Logo",
         subTitle: "Branding",
         alterText: "Smart Learners Logo",
@@ -96,7 +96,7 @@ const tabListContent = [
       {
         img: "img/portfolio/billboard-mockup.png",
         width: 400,
-        height: 500,
+        height: 0,
         title: "Billboard Banner",
         subTitle: "Marketing",
         alterText: "Billboard Banner",
@@ -140,7 +140,7 @@ const tabListContent = [
       {
         img: "img/portfolio/Mobile-app-mockup.png",
         width: 400,
-        height: 550,
+        height: 500,
         title: "Property Management Android App Design",
         subTitle: "Application",
         alterText: "Moringa Team Project",
@@ -172,7 +172,7 @@ const tabListContent = [
       {
         img: "img/portfolio/isic-academic-cobranded-card.png",
         width: 400,
-        height: 400,
+        height: 0,
         title: "ISIC Co-brand Card Design",
         subTitle: "Product",
         alterText: "International Student Identity Card (ISIC) Co-branded Financial Bank Card Design",
@@ -207,7 +207,7 @@ const tabListContent = [
       {
         img: "img/portfolio/tote-bag.png",
         width: 400,
-        height: 550,
+        height: 0,
         title: "Tote Bag Illustration",
         subTitle: "Branding",
         alterText: "Narcolepsy Awareness Campaign",
@@ -240,7 +240,7 @@ const tabListContent = [
       {
         img: "img/portfolio/smart-learners.png",
         width: 400,
-        height: 550,
+        height: 400,
         title: "Smart Learners Logo",
         subTitle: "Branding",
         alterText: "Smart Learners Logo",
