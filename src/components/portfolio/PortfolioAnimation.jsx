@@ -52,7 +52,7 @@ const tabListContent = [
       {
         img: "img/portfolio/Hardcover-Book.png",
         width: 400,
-        height: 0,
+        height: 500,
         title: "Flyer Design",
         subTitle: "Marketing",
         alterText: "Flyer Mockup",
@@ -96,7 +96,7 @@ const tabListContent = [
       {
         img: "img/portfolio/billboard-mockup.png",
         width: 400,
-        height: 0,
+        height: 500,
         title: "Billboard Banner",
         subTitle: "Marketing",
         alterText: "Billboard Banner",
@@ -172,7 +172,7 @@ const tabListContent = [
       {
         img: "img/portfolio/isic-academic-cobranded-card.png",
         width: 400,
-        height: 0,
+        height: 500,
         title: "ISIC Co-brand Card Design",
         subTitle: "Product",
         alterText: "International Student Identity Card (ISIC) Co-branded Financial Bank Card Design",
@@ -268,7 +268,7 @@ const tabListContent = [
       {
         img: "img/portfolio/isic-academic-cobranded-card.png",
         width: 400,
-        height: 400,
+        height: 500,
         title: "ISIC Co-brand Card Design",
         subTitle: "Product",
         alterText: "International Student Identity Card (ISIC) Co-branded Financial Bank Card Design",
@@ -345,7 +345,7 @@ const tabListContent = [
       {
         img: "img/portfolio/Hardcover-Book.png",
         width: 400,
-        height: 0,
+        height: 500,
         title: "Flyer Design",
         subTitle: "Marketing",
         alterText: "Flyer Mockup",
@@ -378,7 +378,7 @@ const tabListContent = [
       {
         img: "img/portfolio/billboard-mockup.png",
         width: 400,
-        height: 0,
+        height: 500,
         title: "Billboard Banner",
         subTitle: "Marketing",
         alterText: "Billboard Banner",
