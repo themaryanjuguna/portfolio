@@ -31,18 +31,11 @@ export default function SimpleSlider() {
 
   const TestimonilContent = [
     {
-      imageName: "6",
-      desc: `Peer Support Award (recognizing students who foster a positive online community, providing assistance to other students in course channels and answering their questions) during your first year at Kibo.`,
-      reviewerName: "Oyinloluwa Adediji",
-      designation: "Student Success Manager - Kibo School",
-      delayAnimation: "",
-    },
-    {
       imageName: "team-1",
       desc: ` Maryanne is a knowledgeable and dutiful student. She takes instructions well and is able to communicate eloquently. She is a very respectiful. She takes initiative in her work and needs minimal supervision.She is well versed with environmental issues. I recommend her any employer.`,
       reviewerName: "Isabella Mbandi",
       designation: "Lecturer at Center for Tourism, Training & Research",
-      delayAnimation: "200",
+      delayAnimation: "0",
     },
     {
       imageName: "team-1",
@@ -56,7 +49,7 @@ export default function SimpleSlider() {
       desc: `Maryanne has a creative touch which blends perfectly with her digital marketing skills to get the business message across to customers.`,
       reviewerName: "Anthony Gathura",
       designation: "Marketing Manager - FCM Travel Solutions",
-      delayAnimation: "200",
+      delayAnimation: "400",
     },
     {
       imageName: "team-2",
