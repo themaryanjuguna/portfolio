@@ -2,6 +2,12 @@ import React from "react";
 
 const AwardContnet = [
   {
+    img: "a4",
+    awardName: "Peer Support Award",
+    awardFor: "Recognizing students who foster a positive online community, providing assistance to other students in course channels and answering their questions during your first year at Kibo.",
+    delayAnimation: "0",
+  },
+  {
     img: "a1",
     awardName: "2023 NCD Advocacy Award",
     awardFor: "In recognition of my commitment in Advocacy towards NCD-free Kenya.",
