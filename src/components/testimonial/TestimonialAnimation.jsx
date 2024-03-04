@@ -55,7 +55,7 @@ export default function SimpleSlider() {
       imageName: "team-2",
       desc: ` Maryanne is a very dedicated person at work, great Designer and full of wisdom.`,
       reviewerName: "Peter Maina Kamuti",
-      designation: "Head of Department - FCM Travel Solutions",
+      designation: "Head of Student Department - FCM Travel Solutions",
       delayAnimation: "400",
     },
     {
