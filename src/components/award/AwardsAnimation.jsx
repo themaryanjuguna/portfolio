@@ -11,7 +11,7 @@ const AwardContnet = [
     img: "a1",
     awardName: "2023 NCD Advocacy Award",
     awardFor: "In recognition of my commitment in Advocacy towards NCD-free Kenya.",
-    delayAnimation: "0",
+    delayAnimation: "200",
   },
   {
     img: "a2",
@@ -19,12 +19,7 @@ const AwardContnet = [
     awardFor: "In recognition and appreciation of significant ISIC website developments and improvement of online brand presence in 2014 - May 2015 Award",
     delayAnimation: "200",
   },
-  {
-    img: "a3",
-    awardName: "Summiting Mt. Kenya",
-    awardFor: "8 days summit to Point Lenana the third highest Mt. Kenya peak. I was also involved in mountain rescue drills.",
-    delayAnimation: "400",
-  },
+
 ];
 
 const Awards = () => {
