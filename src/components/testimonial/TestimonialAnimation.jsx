@@ -31,11 +31,18 @@ export default function SimpleSlider() {
 
   const TestimonilContent = [
     {
+      imageName: "6",
+      desc: `Peer Support Award (recognizing students who foster a positive online community, providing assistance to other students in course channels and answering their questions) during your first year at Kibo.`,
+      reviewerName: "Oyinloluwa Adediji",
+      designation: "Student Success Manager - Kibo School",
+      delayAnimation: "",
+    },
+    {
       imageName: "team-1",
       desc: `Maryanne is highly talented in the sphere of digital marketing. She carries out her tasks with utmost passion and enthusiasm. She is also a team player with a pleasant personality.`,
       reviewerName: "Elizabeth Kipruto",
-      designation: "HR - FCM Travel Solutions",
-      delayAnimation: "",
+      designation: "Human Resource - FCM Travel Solutions",
+      delayAnimation: "200",
     },
     {
       imageName: "team-2",
@@ -52,11 +59,18 @@ export default function SimpleSlider() {
       delayAnimation: "400",
     },
     {
+      imageName: "team-1",
+      desc: ` Innovative and hands on`,
+      reviewerName: "Nduta Mwangi",
+      designation: "Founder Everything Maternity Kenya",
+      delayAnimation: "400",
+    },
+    {
       imageName: "team-2",
       desc: ` Maryanne is hardworking,creative/innovative and very enthusiastic in her work. 
       She is also result oriented person who always attempts to create harmony when working with others. She is reliable and confident.`,
       reviewerName: "Simon Gitau",
-      designation: "Former Deputy Warden - Mt. Kenya National Park and Reserve",
+      designation: "Deputy Warden - Mt. Kenya National Park and Reserve",
       delayAnimation: "400",
     },
     {
@@ -64,13 +78,6 @@ export default function SimpleSlider() {
       desc: ` Maryanne is a knowledgeable and dutiful student. She takes instructions well and is able to communicate eloquently. She is a very respectiful. She takes initiative in her work and needs minimal supervision.She is well versed with environmental issues. I recommend her any employer.`,
       reviewerName: "Isabella Mbandi",
       designation: "Lecturer at Center for Tourism, Training & Research",
-      delayAnimation: "400",
-    },
-    {
-      imageName: "team-1",
-      desc: ` Innovative and hands on`,
-      reviewerName: "Nduta Mwangi",
-      designation: "Founder Everything Maternity Kenya",
       delayAnimation: "400",
     },
   ];
