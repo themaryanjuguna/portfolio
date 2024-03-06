@@ -24,7 +24,7 @@ const Slider = () => {
       <section id="home" className="home-banner">
         <div className="hb-top-fixed d-flex">
           <div className="hb-info">
-            <a href="tel:+727 680-056">{conctInfo.phone}</a>
+            <a href="tel:+254 727 680-056">{conctInfo.phone}</a>
             <a href="mailto:marianne.njuguna@gmail.com">
               {conctInfo.email}
             </a>

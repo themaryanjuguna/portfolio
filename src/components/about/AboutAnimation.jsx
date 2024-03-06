@@ -82,8 +82,8 @@ const About = () => {
                           <span>marianne.njuguna@gmail.com</span>
                         </li>
                         <li>
-                          <label>Skype: </label>
-                          <span>mbuseh</span>
+                          <label>Behance: </label>
+                          <span><a href="https://www.behance.net/themaryanjuguna" target="_blank" rel="noreferrer">Behance</a></span>
                         </li>
                         <li>
                           <label>Freelance: </label>
