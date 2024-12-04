@@ -36,7 +36,7 @@ const News = () => {
               <img src={`img/blog/HTYRLxskBEhrRWNJZg.png`} alt="blog post"></img>
             </div>
             <div className="blog-info">
-              <div className="meta">29/FEB/2020 - BY ALEX</div>
+              <div className="meta">29/FEB/2020 - BY NYAMBURA</div>
               <h6>
                 <a>
                   Five Solid Evidences Attending Design Is Good For Your Career
@@ -59,7 +59,7 @@ const News = () => {
               <img src={`img/blog/HTYRLxskBEhnQWVD.png`} alt="blog post"></img>
             </div>
             <div className="blog-info">
-              <div className="meta">05/JAN/2020 - BY Nyambura </div>
+              <div className="meta">05/JAN/2020 - BY NYAMBURA </div>
               <h6>
                 <a>
                   Ten Mind-Blowing Reasons Why Design Is Using This Technique
@@ -83,7 +83,7 @@ const News = () => {
             </div>
 
             <div className="blog-info">
-              <div className="meta">12/AUG/2020 - BY Nyambura</div>
+              <div className="meta">12/AUG/2020 - BY NYAMBURA</div>
               <h6>
                 <a>
                   I Will Tell You The Truth About Design In The Next 60 Seconds.
@@ -106,7 +106,7 @@ const News = () => {
             </div>
 
             <div className="blog-info">
-              <div className="meta">22/JUN/2020 - BY SVEIL</div>
+              <div className="meta">22/JUN/2020 - BY NYAMBURA</div>
               <h6>
                 <a>
                   What You Know About Design And What You Don't Know About
