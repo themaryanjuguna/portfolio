@@ -33,14 +33,15 @@ const News = () => {
         >
           <div className="blog-grid" onClick={toggleModalOne}>
             <div className="blog-img">
-              <img src={`img/blog/HTYRLxskBEhrRWNJZg.png`} alt="blog post"></img>
+              <img
+                src={`img/blog/HTYRLxskBEhrRWNJZg.png`}
+                alt="blog post"
+              ></img>
             </div>
             <div className="blog-info">
               <div className="meta">29/FEB/2024 - BY NYAMBURA</div>
               <h6>
-                <a>
-                Tech and Sleep: Finding Balance in a Digital World
-                </a>
+                <a>Tech and Sleep: Finding Balance in a Digital World</a>
               </h6>
             </div>
           </div>
@@ -101,7 +102,10 @@ const News = () => {
         >
           <div className="blog-grid" onClick={toggleModalFour}>
             <div className="blog-img">
-              <img src={`img/blog/aotaro_A Drop Of Rainbow_YUdhQGZb.png`} alt="blog post"></img>
+              <img
+                src={`img/blog/aotaro_A Drop Of Rainbow_YUdhQGZb.png`}
+                alt="blog post"
+              ></img>
             </div>
 
             <div className="blog-info">
@@ -116,7 +120,7 @@ const News = () => {
           </div>
         </div>
         {/* End .col for blog-4 */}
-         </div>
+      </div>
       {/* End .row */}
 
       {/* Start Modal for Blog-1 */}
@@ -138,14 +142,15 @@ const News = () => {
             <div className="scrollable">
               <div className="blog-grid">
                 <div className="blog-img">
-                  <img src="img/blog/HTYRLxskBEhiRGVBa156.png" alt="blog post"></img>
+                  <img
+                    src="img/blog/HTYRLxskBEhiRGVBa156.png"
+                    alt="blog post"
+                  ></img>
                 </div>
                 {/* End blog-img */}
                 <article className="article">
                   <div className="article-title">
-                    <h2>
-                    Tech and Sleep: Finding Balance in a Digital World
-                    </h2>
+                    <h2>Tech and Sleep: Finding Balance in a Digital World</h2>
                     <div className="media">
                       <div className="avatar">
                         <img src="img/testimonial/team-1.jpg" alt="thumbnail" />
@@ -160,28 +165,61 @@ const News = () => {
 
                   <div className="article-content">
                     <p>
-                    In today’s hyper-connected world, our lives revolve around screens. Whether it’s scrolling through social media, replying to emails, or binge-watching the latest series, technology is ever-present—even when it shouldn’t be. Ironically, the same gadgets designed to improve our lives are robbing us of something priceless: sleep.
+                      In today’s hyper-connected world, our lives revolve around
+                      screens. Whether it’s scrolling through social media,
+                      replying to emails, or binge-watching the latest series,
+                      technology is ever-present—even when it shouldn’t be.
+                      Ironically, the same gadgets designed to improve our lives
+                      are robbing us of something priceless: sleep.
                     </p>
                     <p>
-                    Research shows that blue light from devices disrupts our circadian rhythm, tricking our brains into thinking it's daytime. The result? Tossing, turning, and waking up feeling like a zombie (without the thrill of a Halloween costume). And let’s not even start on the doomscrolling spiral right before bed—it’s a one-way ticket to insomnia-ville.
+                      Research shows that blue light from devices disrupts our
+                      circadian rhythm, tricking our brains into thinking it's
+                      daytime. The result? Tossing, turning, and waking up
+                      feeling like a zombie (without the thrill of a Halloween
+                      costume). And let’s not even start on the doomscrolling
+                      spiral right before bed—it’s a one-way ticket to
+                      insomnia-ville.
                     </p>
                     <p>
-                    But let’s be clear: Technology isn’t the villain of this story. It’s the way we use it. Tech can also support healthier sleep patterns. From sleep tracking apps to calming white noise playlists and smart alarms, digital tools can help us wind down. The key, like any good relationship, is balance.
+                      But let’s be clear: Technology isn’t the villain of this
+                      story. It’s the way we use it. Tech can also support
+                      healthier sleep patterns. From sleep tracking apps to
+                      calming white noise playlists and smart alarms, digital
+                      tools can help us wind down. The key, like any good
+                      relationship, is balance.
                     </p>
                     <h4>Tips for Tech-Sleep Harmony</h4>
                     <ul>
-            <li><strong>Set Digital Boundaries:</strong> Create a no-screens rule at least an hour before bed. Replace your phone with a book or meditation practice.</li>
-            <li><strong>Leverage Sleep-Friendly Tech:</strong> Use apps that guide relaxation or blue light filters on devices to reduce strain in the evening.</li>
-            <li><strong>Rethink Notifications:</strong> Do you really need your phone pinging at 3 a.m. because your cousin liked your post? Turn on “Do Not Disturb.”</li>
-            <li><strong>Unplug Your Mind:</strong> Keep your bedroom tech-free—a place for rest, not scrolling.</li>
-        </ul>
+                      <li>
+                        <strong>Set Digital Boundaries:</strong> Create a
+                        no-screens rule at least an hour before bed. Replace
+                        your phone with a book or meditation practice.
+                      </li>
+                      <li>
+                        <strong>Leverage Sleep-Friendly Tech:</strong> Use apps
+                        that guide relaxation or blue light filters on devices
+                        to reduce strain in the evening.
+                      </li>
+                      <li>
+                        <strong>Rethink Notifications:</strong> Do you really
+                        need your phone pinging at 3 a.m. because your cousin
+                        liked your post? Turn on “Do Not Disturb.”
+                      </li>
+                      <li>
+                        <strong>Unplug Your Mind:</strong> Keep your bedroom
+                        tech-free—a place for rest, not scrolling.
+                      </li>
+                    </ul>
                     <p>
-                    Technology and sleep can coexist, but only when we become intentional about our habits. After all, even our devices need a reboot—why shouldn’t we? Balance isn’t just a buzzword; it’s the secret to thriving in this digital world without compromising our health. 
+                      Technology and sleep can coexist, but only when we become
+                      intentional about our habits. After all, even our devices
+                      need a reboot—why shouldn’t we? Balance isn’t just a
+                      buzzword; it’s the secret to thriving in this digital
+                      world without compromising our health.
                     </p>
                     <blockquote>
-                      <p>
-                      Sleep well. Scroll smart. Thrive boldly.
-                      </p>
+                      <p>Sleep well. Scroll smart. Thrive boldly.</p>
                       <p className="blockquote-footer">
                         Someone famous in{" "}
                         <cite title="Source Title">Dick Grayson</cite>
