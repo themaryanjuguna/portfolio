@@ -33,15 +33,15 @@ const News = () => {
         >
           <div className="blog-grid" onClick={toggleModalOne}>
             <div className="blog-img">
-              <img src={`img/blog/blog-4.jpg`} alt="blog post"></img>
+              <img
+                src={`img/blog/HTYRLxskBEhrRWNJZg.png`}
+                alt="blog post"
+              ></img>
             </div>
             <div className="blog-info">
-              <div className="meta">29/FEB/2020 - BY ALEX</div>
+              <div className="meta">29/FEB/2024 - BY NYAMBURA</div>
               <h6>
-                <a>
-                  Five Solid Evidences Attending Design Is Good For Your Career
-                  Development.
-                </a>
+                <a>Tech and Sleep: Finding Balance in a Digital World</a>
               </h6>
             </div>
           </div>
@@ -56,10 +56,10 @@ const News = () => {
         >
           <div className="blog-grid" onClick={toggleModalTwo}>
             <div className="blog-img">
-              <img src={`img/blog/blog-2.jpg`} alt="blog post"></img>
+              <img src={`img/blog/HTYRLxskBEhnQWVD.png`} alt="blog post"></img>
             </div>
             <div className="blog-info">
-              <div className="meta">05/JAN/2020 - BY SMITH</div>
+              <div className="meta">05/JAN/2020 - BY NYAMBURA </div>
               <h6>
                 <a>
                   Ten Mind-Blowing Reasons Why Design Is Using This Technique
@@ -79,11 +79,11 @@ const News = () => {
         >
           <div className="blog-grid" onClick={toggleModalThree}>
             <div className="blog-img">
-              <img src={`img/blog/blog-3.jpg`} alt="blog post"></img>
+              <img src={`img/blog/HTYRLxskBEhkRGNJ.png`} alt="blog post"></img>
             </div>
 
             <div className="blog-info">
-              <div className="meta">12/AUG/2020 - BY RIO</div>
+              <div className="meta">12/AUG/2020 - BY NYAMBURA</div>
               <h6>
                 <a>
                   I Will Tell You The Truth About Design In The Next 60 Seconds.
@@ -102,11 +102,14 @@ const News = () => {
         >
           <div className="blog-grid" onClick={toggleModalFour}>
             <div className="blog-img">
-              <img src={`img/blog/blog-1.jpg`} alt="blog post"></img>
+              <img
+                src={`img/blog/aotaro_A Drop Of Rainbow_YUdhQGZb.png`}
+                alt="blog post"
+              ></img>
             </div>
 
             <div className="blog-info">
-              <div className="meta">22/JUN/2020 - BY SVEIL</div>
+              <div className="meta">22/JUN/2020 - BY NYAMBURA</div>
               <h6>
                 <a>
                   What You Know About Design And What You Don't Know About
@@ -139,21 +142,22 @@ const News = () => {
             <div className="scrollable">
               <div className="blog-grid">
                 <div className="blog-img">
-                  <img src="img/blog/blog-4.jpg" alt="blog post"></img>
+                  <img
+                    src="img/blog/HTYRLxskBEhiRGVBa156.png"
+                    alt="blog post"
+                  ></img>
                 </div>
                 {/* End blog-img */}
                 <article className="article">
                   <div className="article-title">
-                    <h2>
-                      They Now Bade Farewell To The Kind But Unseen People
-                    </h2>
+                    <h2>Tech and Sleep: Finding Balance in a Digital World</h2>
                     <div className="media">
                       <div className="avatar">
                         <img src="img/testimonial/team-1.jpg" alt="thumbnail" />
                       </div>
                       <div className="media-body">
-                        <label>BY ALEX</label>
-                        <span>26 FEB 2020</span>
+                        <label>BY NYAMBURA</label>
+                        <span>26 FEB 2024</span>
                       </div>
                     </div>
                   </div>
@@ -161,34 +165,61 @@ const News = () => {
 
                   <div className="article-content">
                     <p>
-                      Aenean eleifend ante maecenas pulvinar montes lorem et
-                      pede dis dolor pretium donec dictum. Vici consequat justo
-                      enim. Venenatis eget adipiscing luctus lorem. Adipiscing
-                      veni amet luctus enim sem libero tellus viverra venenatis
-                      aliquam. Commodo natoque quam pulvinar elit.
+                      In today’s hyper-connected world, our lives revolve around
+                      screens. Whether it’s scrolling through social media,
+                      replying to emails, or binge-watching the latest series,
+                      technology is ever-present—even when it shouldn’t be.
+                      Ironically, the same gadgets designed to improve our lives
+                      are robbing us of something priceless: sleep.
                     </p>
                     <p>
-                      Eget aenean tellus venenatis. Donec odio tempus. Felis
-                      arcu pretium metus nullam quam aenean sociis quis sem
-                      neque vici libero. Venenatis nullam fringilla pretium
-                      magnis aliquam nunc vulputate integer augue ultricies
-                      cras. Eget viverra feugiat cras ut. Sit natoque montes
-                      tempus ligula eget vitae pede rhoncus maecenas
-                      consectetuer commodo condimentum aenean.
+                      Research shows that blue light from devices disrupts our
+                      circadian rhythm, tricking our brains into thinking it's
+                      daytime. The result? Tossing, turning, and waking up
+                      feeling like a zombie (without the thrill of a Halloween
+                      costume). And let’s not even start on the doomscrolling
+                      spiral right before bed—it’s a one-way ticket to
+                      insomnia-ville.
                     </p>
-                    <h4>What are my payment options?</h4>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      But let’s be clear: Technology isn’t the villain of this
+                      story. It’s the way we use it. Tech can also support
+                      healthier sleep patterns. From sleep tracking apps to
+                      calming white noise playlists and smart alarms, digital
+                      tools can help us wind down. The key, like any good
+                      relationship, is balance.
+                    </p>
+                    <h4>Tips for Tech-Sleep Harmony</h4>
+                    <ul>
+                      <li>
+                        <strong>Set Digital Boundaries:</strong> Create a
+                        no-screens rule at least an hour before bed. Replace
+                        your phone with a book or meditation practice.
+                      </li>
+                      <li>
+                        <strong>Leverage Sleep-Friendly Tech:</strong> Use apps
+                        that guide relaxation or blue light filters on devices
+                        to reduce strain in the evening.
+                      </li>
+                      <li>
+                        <strong>Rethink Notifications:</strong> Do you really
+                        need your phone pinging at 3 a.m. because your cousin
+                        liked your post? Turn on “Do Not Disturb.”
+                      </li>
+                      <li>
+                        <strong>Unplug Your Mind:</strong> Keep your bedroom
+                        tech-free—a place for rest, not scrolling.
+                      </li>
+                    </ul>
+                    <p>
+                      Technology and sleep can coexist, but only when we become
+                      intentional about our habits. After all, even our devices
+                      need a reboot—why shouldn’t we? Balance isn’t just a
+                      buzzword; it’s the secret to thriving in this digital
+                      world without compromising our health.
                     </p>
                     <blockquote>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam.
-                      </p>
+                      <p>Sleep well. Scroll smart. Thrive boldly.</p>
                       <p className="blockquote-footer">
                         Someone famous in{" "}
                         <cite title="Source Title">Dick Grayson</cite>
@@ -487,7 +518,7 @@ const News = () => {
                     </h2>
                     <div className="media">
                       <div className="avatar">
-                        <img src="img/testimonial/team-4.jpg" alt="thumbnail" />
+                        <img src="img/testimonial/team-4.png" alt="thumbnail" />
                       </div>
                       <div className="media-body">
                         <label>BY SVEIL</label>
