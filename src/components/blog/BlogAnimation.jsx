@@ -59,10 +59,10 @@ const News = () => {
               <img src={`img/blog/HTYRLxskBEhnQWVD.png`} alt="blog post"></img>
             </div>
             <div className="blog-info">
-              <div className="meta">05/JAN/2020 - BY NYAMBURA </div>
+              <div className="meta">05/JAN/2024 - BY NYAMBURA </div>
               <h6>
                 <a>
-                The Role of ML and AI in Sleep Technology: Dreaming Smarter
+                  The Role of ML and AI in Sleep Technology: Dreaming Smarter
                 </a>
               </h6>
             </div>
@@ -82,11 +82,9 @@ const News = () => {
             </div>
 
             <div className="blog-info">
-              <div className="meta">12/AUG/2020 - BY NYAMBURA</div>
+              <div className="meta">12/AUG/2023 - BY NYAMBURA</div>
               <h6>
-                <a>
-                The Role of ML and AI in Sleep Technology: Dreaming Smarter
-                </a>
+                <a>The Role of ML and AI in Agritech & Agripreneurship</a>
               </h6>
             </div>
           </div>
@@ -108,7 +106,7 @@ const News = () => {
             </div>
 
             <div className="blog-info">
-              <div className="meta">22/JUN/2020 - BY NYAMBURA</div>
+              <div className="meta">22/JUN/2023 - BY NYAMBURA</div>
               <h6>
                 <a>
                   What You Know About Design And What You Don't Know About
@@ -224,16 +222,6 @@ const News = () => {
                         <cite title="Source Title">Dick Grayson</cite>
                       </p>
                     </blockquote>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
-                    </p>
                   </div>
                   {/* End article content */}
                   <ul className="nav tag-cloud">
@@ -281,21 +269,25 @@ const News = () => {
             <div className="scrollable">
               <div className="blog-grid">
                 <div className="blog-img">
-                  <img src="img/blog/HTYRLxskBEhnQWVD.png" alt="blog post"></img>
+                  <img
+                    src="img/blog/HTYRLxskBEhnQWVD.png"
+                    alt="blog post"
+                  ></img>
                 </div>
                 {/* End blog-img */}
                 <article className="article">
                   <div className="article-title">
                     <h2>
-                    The Role of ML and AI in Sleep Technology: Dreaming Smarter.
+                      The Role of ML and AI in Sleep Technology: Dreaming
+                      Smarter.
                     </h2>
                     <div className="media">
                       <div className="avatar">
-                        <img src="img/blog/HTYRLxskBEhnQWVD.png" alt="thumbnail" />
+                        <img src="img/testimonial/team-1.jpg" alt="thumbnail" />
                       </div>
                       <div className="media-body">
                         <label>BY NYAMBURA</label>
-                        <span>05 JAN 2020</span>
+                        <span>05 JAN 2024</span>
                       </div>
                     </div>
                   </div>
@@ -303,25 +295,74 @@ const News = () => {
 
                   <div className="article-content">
                     <p>
-                    Gone are the days when counting sheep was our best sleep aid. In today’s tech-driven world, Machine Learning (ML) and Artificial Intelligence (AI) are redefining the way we sleep—helping us understand, monitor, and improve this critical yet often elusive aspect of life.
+                      Gone are the days when counting sheep was our best sleep
+                      aid. In today’s tech-driven world, Machine Learning (ML)
+                      and Artificial Intelligence (AI) are redefining the way we
+                      sleep—helping us understand, monitor, and improve this
+                      critical yet often elusive aspect of life.
                     </p>
                     <p>
-                    At the forefront of sleep technology are smart sleep trackers, which do more than just count snores. Using ML algorithms, they analyze data from your heart rate, breathing patterns, and body movements to provide personalized insights. The result? You no longer wake up wondering why you feel like you’ve been hit by a truck—your tracker has the answers.
-                    </p>                  
-                    <p>
-                    But AI doesn’t stop there. It powers adaptive sleep environments, like smart beds and lighting systems, which adjust based on your sleep stages. If you’re in deep sleep, AI ensures nothing interrupts you—not even your neighbor’s barking dog. And let’s not forget AI-driven apps that offer real-time relaxation techniques and sleep coaching, tailored to your unique patterns.
+                      At the forefront of sleep technology are smart sleep
+                      trackers, which do more than just count snores. Using ML
+                      algorithms, they analyze data from your heart rate,
+                      breathing patterns, and body movements to provide
+                      personalized insights. The result? You no longer wake up
+                      wondering why you feel like you’ve been hit by a
+                      truck—your tracker has the answers.
                     </p>
                     <p>
-                    For those with sleep disorders, ML and AI play an even bigger role. They’re helping identify conditions like insomnia, sleep apnea, and narcolepsy through non-invasive, at-home solutions, reducing the reliance on costly sleep clinics. By analyzing vast datasets, AI systems can detect subtle patterns doctors might miss, enabling earlier intervention.
+                      But AI doesn’t stop there. It powers adaptive sleep
+                      environments, like smart beds and lighting systems, which
+                      adjust based on your sleep stages. If you’re in deep
+                      sleep, AI ensures nothing interrupts you—not even your
+                      neighbor’s barking dog. And let’s not forget AI-driven
+                      apps that offer real-time relaxation techniques and sleep
+                      coaching, tailored to your unique patterns.
                     </p>
-                    <p>However, the real magic lies in the future. As AI becomes smarter, sleep tech will likely evolve into a seamless ecosystem—one that not only monitors but actively optimizes sleep, creating truly restorative nights.</p>
-                    <p>So, the next time you lie down to sleep, remember: AI is working overtime to ensure your dreams are sweet, your sleep is sound, and your mornings are brighter. Goodnight, sleep tight, and let the algorithms do the rest.</p>              
-                    <blockquote>                  
+                    <p>
+                      For those with sleep disorders, ML and AI play an even
+                      bigger role. They’re helping identify conditions like
+                      insomnia, sleep apnea, and narcolepsy through
+                      non-invasive, at-home solutions, reducing the reliance on
+                      costly sleep clinics. By analyzing vast datasets, AI
+                      systems can detect subtle patterns doctors might miss,
+                      enabling earlier intervention.
+                    </p>
+                    <p>
+                      However, the real magic lies in the future. As AI becomes
+                      smarter, sleep tech will likely evolve into a seamless
+                      ecosystem—one that not only monitors but actively
+                      optimizes sleep, creating truly restorative nights.
+                    </p>
+                    <p>
+                      So, the next time you lie down to sleep, remember: AI is
+                      working overtime to ensure your dreams are sweet, your
+                      sleep is sound, and your mornings are brighter. Goodnight,
+                      sleep tight, and let the algorithms do the rest.
+                    </p>
+                    <blockquote>
                       <p className="blockquote-footer">
-                      Want to dive deeper? Check out resources like{" "}
-                        <cite title="Source Title"><a href="https://www.thensf.org/" target="_blank" rel="noreferrer">The Sleep Foundation </a>or <a href="https://executive.mit.edu/course/artificial-intelligence-in-health-care/a056g00000URaaTAAT.html" target="_blank" rel="noreferrer">MIT AI in Healthcare</a>.</cite>
+                        Want to dive deeper? Check out resources like{" "}
+                        <cite title="Source Title">
+                          <a
+                            href="https://www.thensf.org/"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            The Sleep Foundation{" "}
+                          </a>
+                          or{" "}
+                          <a
+                            href="https://executive.mit.edu/course/artificial-intelligence-in-health-care/a056g00000URaaTAAT.html"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            MIT AI in Healthcare
+                          </a>
+                          .
+                        </cite>
                       </p>
-                    </blockquote>                   
+                    </blockquote>
                   </div>
                   {/* End article content */}
                   <ul className="nav tag-cloud">
@@ -369,72 +410,93 @@ const News = () => {
             <div className="scrollable">
               <div className="blog-grid">
                 <div className="blog-img">
-                  <img src="img/blog/blog-3.jpg" alt="blog post"></img>
+                  <img
+                    src="/img/blog/HTYRLxskBEhkRGNJ.png"
+                    alt="blog post"
+                  ></img>
                 </div>
                 {/* End blog-img */}
                 <article className="article">
                   <div className="article-title">
-                    <h2>
-                      I Will Tell You The Truth About Design In The Next 60
-                      Seconds.
-                    </h2>
+                    <h2>The Role of ML and AI in Agritech & Agripreneurship</h2>
                     <div className="media">
                       <div className="avatar">
-                        <img src="img/testimonial/team-3.jpg" alt="thumbnail" />
+                        <img src="img/testimonial/team-1.jpg" alt="thumbnail" />
                       </div>
                       <div className="media-body">
-                        <label>BY RIO</label>
-                        <span>12 AUG 2020</span>
+                        <label>BY NYAMBURA</label>
+                        <span>12 AUG 2023</span>
                       </div>
                     </div>
                   </div>
                   {/* End .article-title */}
 
                   <div className="article-content">
+                    <h2>Sowing the Seeds of Innovation.</h2>
                     <p>
-                      Aenean eleifend ante maecenas pulvinar montes lorem et
-                      pede dis dolor pretium donec dictum. Vici consequat justo
-                      enim. Venenatis eget adipiscing luctus lorem. Adipiscing
-                      veni amet luctus enim sem libero tellus viverra venenatis
-                      aliquam. Commodo natoque quam pulvinar elit.
+                      In the age of rapid technological advancement, agriculture
+                      is no longer just about dirt and sweat—it’s about data and
+                      strategy. Enter Machine Learning (ML) and Artificial
+                      Intelligence (AI), the unsung heroes of the modern farming
+                      revolution. These technologies are transforming agritech
+                      and agripreneurship, creating smarter, more sustainable
+                      food systems.
+                    </p>
+
+                    <p>
+                      Picture this: a farmer doesn’t guess when to water crops;
+                      AI-powered sensors tell them the exact moment their plants
+                      are thirsty. ML algorithms analyze weather patterns, soil
+                      health, and crop disease risks faster than you can say
+                      "harvest." This isn’t sci-fi; it’s the cutting edge of
+                      precision farming.
                     </p>
                     <p>
-                      Eget aenean tellus venenatis. Donec odio tempus. Felis
-                      arcu pretium metus nullam quam aenean sociis quis sem
-                      neque vici libero. Venenatis nullam fringilla pretium
-                      magnis aliquam nunc vulputate integer augue ultricies
-                      cras. Eget viverra feugiat cras ut. Sit natoque montes
-                      tempus ligula eget vitae pede rhoncus maecenas
-                      consectetuer commodo condimentum aenean.
+                      For agripreneurs, AI is a game-changer. By harnessing
+                      predictive analytics, smallholder farmers can cut costs
+                      and boost profits. Market trends, pricing forecasts, and
+                      consumer behavior data are now at their fingertips,
+                      empowering them to compete in global markets.
                     </p>
-                    <h4>What are my payment options?</h4>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      But here’s the rub: technology is only as good as its
+                      accessibility. To truly unleash its potential, agritech
+                      innovations must reach even the smallest farms.
+                      Governments, investors, and innovators must work together
+                      to democratize these tools.
+                    </p>
+                    <p>
+                      With ML and AI, we’re not just growing crops; we’re
+                      cultivating solutions for global food security and climate
+                      resilience. Agritech isn’t just a field—it’s a frontier.
                     </p>
                     <blockquote>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam.
+                        The future of farming is smart, and it’s here. Are you
+                        ready to grow with it?
                       </p>
                       <p className="blockquote-footer">
-                        Someone famous in{" "}
-                        <cite title="Source Title">Dick Grayson</cite>
+                        Further Reading:{" "}
+                        <cite title="Source Title">
+                          <a
+                            href="https://selfhelpafrica.org/ie/ai-and-african-agriculture/"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            How AI is Revolutionizing Agriculture
+                          </a>{" "}
+                          |
+                          <a
+                            href="https://convergenceai.io/cultivating-change-how-ai-and-machine-learning-are-revolutionizing-agriculture-in-africa/"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            {" "}
+                            ML in Agritech Trends
+                          </a>
+                        </cite>
                       </p>
                     </blockquote>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
-                    </p>
                   </div>
                   {/* End article content */}
                   <ul className="nav tag-cloud">
@@ -482,21 +544,21 @@ const News = () => {
             <div className="scrollable">
               <div className="blog-grid">
                 <div className="blog-img">
-                  <img src="img/blog/blog-1.jpg" alt="blog post"></img>
+                  <img src="img/blog/aotaro_A%20Drop%20Of%20Rainbow_YUdhQGZb.png" alt="blog post"></img>
                 </div>
                 {/* End blog-img */}
                 <article className="article">
                   <div className="article-title">
                     <h2>
-                      They Now Bade Farewell To The Kind But Unseen People
+                      The Art of Product Design: More Than Just a Pretty Face
                     </h2>
                     <div className="media">
                       <div className="avatar">
-                        <img src="img/testimonial/team-4.png" alt="thumbnail" />
+                        <img src="img/testimonial/team-1.jpg" alt="thumbnail" />
                       </div>
                       <div className="media-body">
-                        <label>BY SVEIL</label>
-                        <span>22 JAN 2020</span>
+                        <label>BY NYAMBURA</label>
+                        <span>22 JUN 2023</span>
                       </div>
                     </div>
                   </div>
@@ -504,49 +566,64 @@ const News = () => {
 
                   <div className="article-content">
                     <p>
-                      Aenean eleifend ante maecenas pulvinar montes lorem et
-                      pede dis dolor pretium donec dictum. Vici consequat justo
-                      enim. Venenatis eget adipiscing luctus lorem. Adipiscing
-                      veni amet luctus enim sem libero tellus viverra venenatis
-                      aliquam. Commodo natoque quam pulvinar elit.
+                      Behind every sleek gadget, groundbreaking app, or even
+                      that oddly addictive coffee mug lies the unsung hero:
+                      product design. It’s not just about aesthetics; it’s about
+                      creating things people love, need, and can’t live without.
+                      Great design balances form and function, wrapping
+                      innovation in a package so intuitive it feels like magic.
                     </p>
                     <p>
-                      Eget aenean tellus venenatis. Donec odio tempus. Felis
-                      arcu pretium metus nullam quam aenean sociis quis sem
-                      neque vici libero. Venenatis nullam fringilla pretium
-                      magnis aliquam nunc vulputate integer augue ultricies
-                      cras. Eget viverra feugiat cras ut. Sit natoque montes
-                      tempus ligula eget vitae pede rhoncus maecenas
-                      consectetuer commodo condimentum aenean.
+                      But designing a product isn’t a one-and-done process—it’s
+                      a journey. And like any good journey, it has stages.
+                      Here’s a witty breakdown of the "Fab Four" stages of
+                      product design:
                     </p>
-                    <h4>What are my payment options?</h4>
+                    <ol>
+                      <li>
+                        <strong>Ideation (A.K.A. Brainstorm Madness):</strong>
+                        It all begins with a spark—an idea. Designers and
+                        stakeholders toss ideas around like confetti, aiming to
+                        solve problems or fulfill desires users didn’t even know
+                        they had. Every weird, wild, or wacky thought is welcome
+                        because innovation thrives on creativity.
+                      </li>
+                      <li>
+                        <strong>
+                          Prototyping (Where Dreams Get Hands and Feet):
+                        </strong>
+                        Think of this as building a model airplane out of
+                        clay—only the airplane might turn into a drone by the
+                        end. Sketches evolve into clickable mockups or physical
+                        prototypes, and this is where designers start to
+                        separate “cool” from “practical.”
+                      </li>
+                      <li>
+                        <strong>Testing (AKA, the Critic’s Stage):</strong>
+                        The "Will it work?" phase. Users poke, prod, and
+                        sometimes break the prototype. Their feedback is the
+                        gold that sharpens the product. At this stage, failure
+                        isn’t just okay—it’s encouraged. If something’s going to
+                        flop, better now than after launch.
+                      </li>
+                      <li>
+                        <strong>Implementation (The Big Reveal):</strong>
+                        After countless iterations, it's time to shine. The
+                        product is polished, launched, and put into the hands of
+                        users, ready to disrupt markets or simply make life
+                        easier.
+                      </li>
+                    </ol>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Product design matters because it’s the bridge between
+                      possibility and reality. So, the next time you hold
+                      something ingenious, remember—it didn’t just happen. It
+                      was designed.
                     </p>
+
                     <blockquote>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam.
-                      </p>
-                      <p className="blockquote-footer">
-                        Someone famous in{" "}
-                        <cite title="Source Title">Dick Grayson</cite>
-                      </p>
+                      <p>Idea. Prototype. Test. Launch. Repeat.</p>
                     </blockquote>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
-                    </p>
                   </div>
                   {/* End article content */}
                   <ul className="nav tag-cloud">
