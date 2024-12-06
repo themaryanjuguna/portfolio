@@ -12,281 +12,406 @@ const breakpointColumnsObj = {
   500: 1,
 };
 
-const tabList = ["All", "Branding", "Packaging", "Web Design", "Marketing Materials"];
+const tabList = ["All", "Branding", "Product", "Application", "Marketing"];
 const tabListContent = [
   {
-    porftoliItems: [
+    portfolioItems: [
       {
-        img: "/img/portfolio/m-portfolio-1.jpg",
+        img: "img/portfolio/tote-bag.png",
         width: 400,
-        height: 550,
-        title: "Bottle Illustration",
-        subTitle: "Figma Shoot",
-        alterText: "Bottle Illustration",
+        height: 0,
+        title: "Tote Bag Illustration",
+        subTitle: "Branding",
+        alterText: "Narcolepsy Awareness Campaign",
         delayAnimation: "",
         portfolioLink:
-          "https://dribbble.com/shots/16529339-Beny-Personal-Portfolio-React-Template",
+          "https://usingiziinitiative.medium.com/",
       },
       {
-        img: "/img/portfolio/m-portfolio-2.jpg",
+        img: "img/portfolio/waridi-lightbox.png",
         width: 400,
         height: 400,
-        title: "E-Learning App",
-        subTitle: "Nuna ios App",
-        alterText: "Illustration",
+        title: "Waridi Logo",
+        subTitle: "Branding",
+        alterText: "Logo Lightbox",
         delayAnimation: "100",
         portfolioLink:
-          "https://dribbble.com/shots/16529350-Nairo-Personal-Portfolio-React-Template",
+          "https://www.behance.net/themaryanjuguna",
       },
       {
-        img: "/img/portfolio/m-portfolio-3.jpg",
+        img: "img/portfolio/waridi-headers.png",
         width: 400,
         height: 700,
-        title: "Visual Design",
-        subTitle: "Themeforest Marke",
-        alterText: "Business Mockup",
+        title: "Letterhead Design",
+        subTitle: "Branding",
+        alterText: "Letterhead Mockup",
         delayAnimation: "200",
         portfolioLink:
-          "https://dribbble.com/shots/16529407-Deski-Saas-Software-React-Template",
+          "https://www.behance.net/themaryanjuguna",
       },
       {
-        img: "/img/portfolio/m-portfolio-4.jpg",
-        width: 400,
-        height: 400,
-        title: "Business Card",
-        subTitle: "Graphicriver Market",
-        alterText: "E-Cosmetics",
-        delayAnimation: "0",
-        portfolioLink:
-          "https://dribbble.com/shots/16545341-Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
-      },
-      {
-        img: "/img/portfolio/m-portfolio-5.jpg",
-        width: 400,
-        height: 700,
-        title: "Chatting Application",
-        subTitle: "Codecanyon Market",
-        alterText: "Bottle Illustration",
-        delayAnimation: "100",
-        portfolioLink:
-          "https://dribbble.com/shots/16529158-Waxon-Personal-Portfolio-VueJS-Template-RTL",
-      },
-      {
-        img: "/img/portfolio/m-portfolio-6.jpg",
+        img: "img/portfolio/Hardcover-Book.png",
         width: 400,
         height: 500,
-        title: "Web Application",
-        subTitle: "Behance Shot",
-        alterText: "Web Application",
-        delayAnimation: "200",
+        title: "Flyer Design",
+        subTitle: "Marketing",
+        alterText: "Flyer Mockup",
+        delayAnimation: "100",
         portfolioLink:
-          "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
+          "https://www.behance.net/themaryanjuguna",
       },
       {
-        img: "/img/portfolio/m-portfolio-7.jpg",
+        img: "img/portfolio/flyer.png",
         width: 400,
-        height: 700,
-        title: "Business Card",
-        subTitle: "Graphicriver Market",
-        alterText: "Business Card",
+        height: 500,
+        title: "Flyer Design",
+        subTitle: "Marketing",
+        alterText: "Flyer Mockup",
         delayAnimation: "0",
         portfolioLink:
-          "https://dribbble.com/shots/16529282-Shane-Personal-Portfolio-React-Template",
+          "https://www.behance.net/themaryanjuguna",
       },
       {
-        img: "/img/portfolio/m-portfolio-8.jpg",
-        width: 400,
-        height: 550,
-        title: "Chatting App Design",
-        subTitle: "Codecanyon Market",
-        alterText: "Chatting App Design",
-        delayAnimation: "100",
-        portfolioLink:
-          "https://www.behance.net/gallery/128278341/Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
-      },
-      {
-        img: "/img/portfolio/m-portfolio-9.jpg",
+        img: "img/portfolio/smart-learners.png",
         width: 400,
         height: 400,
-        title: "Web Motion",
-        subTitle: "Behance Shot",
-        alterText: "Web Motion",
+        title: "Smart Learners Logo",
+        subTitle: "Branding",
+        alterText: "Smart Learners Logo",
         delayAnimation: "200",
-        portfolioLink: "https://www.facebook.com/ibthemes",
-      },
-    ],
-  },
-  {
-    porftoliItems: [
-      {
-        img: "/img/portfolio/m-portfolio-6.jpg",
-        width: 400,
-        height: 550,
-        title: "Web Application",
-        subTitle: "Behance Shot",
-        alterText: "Web Application",
-        delayAnimation: "",
         portfolioLink:
-          "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
+          "https://www.behance.net/themaryanjuguna",
       },
       {
-        img: "/img/portfolio/m-portfolio-3.jpg",
+        img: "img/portfolio/lamp-post-banner.png",
         width: 400,
         height: 700,
-        title: "Visual Design",
-        subTitle: "Themeforest Marke",
-        alterText: "Business Mockup",
-        delayAnimation: "100",
+        title: "Lamp Post Banner",
+        subTitle: "Marketing",
+        alterText: "Lamp Post Banner",
+        delayAnimation: "0",
         portfolioLink:
-          "https://dribbble.com/shots/16529407-Deski-Saas-Software-React-Template",
+          "https://www.behance.net/themaryanjuguna",
       },
       {
-        img: "/img/portfolio/m-portfolio-8.jpg",
+        img: "img/portfolio/billboard-mockup.png",
         width: 400,
-        height: 550,
-        title: "Chatting App Design",
-        subTitle: "Codecanyon Market",
-        alterText: "Chatting App Design",
+        height: 500,
+        title: "Billboard Banner",
+        subTitle: "Marketing",
+        alterText: "Billboard Banner",
         delayAnimation: "200",
         portfolioLink:
-          "https://www.behance.net/gallery/128278341/Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
+          "https://www.behance.net/themaryanjuguna",
       },
       {
-        img: "/img/portfolio/m-portfolio-4.jpg",
+        img: "img/portfolio/Roll-Up-Banner.png",
+        width: 400,
+        height: 700,
+        title: "Roll Up Banner",
+        subTitle: "Marketing",
+        alterText: "Roll Up Banner",
+        delayAnimation: "100",
+        portfolioLink:
+          "https://www.behance.net/themaryanjuguna",
+      },
+      {
+        img: "img/portfolio/hoodie-mockup-front-View.png",
+        width: 400,
+        height: 700,
+        title: "Hoodie Design",
+        subTitle: "Marketing",
+        alterText: "Hoodie Mockup",
+        delayAnimation: "0",
+        portfolioLink:
+          "https://www.behance.net/themaryanjuguna",
+      },
+      {
+        img: "img/portfolio/Website-mockup.png",
+        width: 400,
+        height: 500,
+        title: "Web Application Design",
+        subTitle: "Application",
+        alterText: "Web Application Mockup",
+        delayAnimation: "100",
+        portfolioLink:
+          "https://www.behance.net/themaryanjuguna",
+      },
+      {
+        img: "img/portfolio/Mobile-app-mockup.png",
+        width: 400,
+        height: 500,
+        title: "Property Management Android App Design",
+        subTitle: "Application",
+        alterText: "Moringa Team Project",
+        delayAnimation: "0",
+        portfolioLink:
+          "https://www.behance.net/themaryanjuguna",
+      },
+      {
+        img: "img/portfolio/isic-bank-card.png",
         width: 400,
         height: 400,
-        title: "Business Card",
-        subTitle: "Graphicriver Market",
-        alterText: "E-Cosmetics",
-        delayAnimation: "300",
+        title: "ISIC Co-brand Card Design",
+        subTitle: "Product",
+        alterText: "ISIC Co-branded Financial Bank Card Design",
+        delayAnimation: "100",
+        portfolioLink: "https://www.behance.net/gallery/30539859/ISIC-Co-branded-Cards-in-Kenya",
+      },
+      {
+        img: "img/portfolio/handwash.png",
+        width: 400,
+        height: 700,
+        title: "Handwash Label Design",
+        subTitle: "Product",
+        alterText: "Handwash Label Design",
+        delayAnimation: "200",
         portfolioLink:
-          "https://dribbble.com/shots/16545341-Imroz-Vue-JS-Creative-Agency-Portfolio-Template",
+          "linktr.ee/themaryanjuguna",
+      },
+      {
+        img: "img/portfolio/isic-academic-cobranded-card.png",
+        width: 400,
+        height: 500,
+        title: "ISIC Co-brand Card Design",
+        subTitle: "Product",
+        alterText: "International Student Identity Card (ISIC) Co-branded Financial Bank Card Design",
+        delayAnimation: "0",
+        portfolioLink: "https://www.behance.net/gallery/30539859/ISIC-Co-branded-Cards-in-Kenya",
+      },
+      {
+        img: "img/portfolio/bakeking-home.png",
+        width: 400,
+        height: 400,
+        title: "BakeKing Home Cake Mix Packaging",
+        subTitle: "Product",
+        alterText: "BakeKing Home Cake Mix Packaging",
+        delayAnimation: "100",
+        portfolioLink: "https://www.behance.net/gallery/30539859/ISIC-Co-branded-Cards-in-Kenya",
+      },
+      {
+        img: "img/portfolio/bakeking-granola.png",
+        width: 400,
+        height: 400,
+        title: "BakeKing Granola Packaging",
+        subTitle: "Product",
+        alterText: "BakeKing Granola Packaging",
+        delayAnimation: "200",
+        portfolioLink: "https://www.behance.net/gallery/30539859/ISIC-Co-branded-Cards-in-Kenya",
       },
     ],
   },
+//  Branding start
   {
-    porftoliItems: [
+    portfolioItems: [
       {
-        img: "/img/portfolio/m-portfolio-2.jpg",
+        img: "img/portfolio/tote-bag.png",
         width: 400,
-        height: 400,
-        title: "E-Learning App",
-        subTitle: "Nuna ios App",
-        alterText: "Illustration",
+        height: 0,
+        title: "Tote Bag Illustration",
+        subTitle: "Branding",
+        alterText: "Narcolepsy Awareness Campaign",
         delayAnimation: "",
         portfolioLink:
-          "https://dribbble.com/shots/16529350-Nairo-Personal-Portfolio-React-Template",
+          "https://usingiziinitiative.medium.com/",
       },
+      {
+        img: "img/portfolio/waridi-lightbox.png",
+        width: 400,
+        height: 400,
+        title: "Waridi Logo",
+        subTitle: "Branding",
+        alterText: "Logo Lightbox",
+        delayAnimation: "100",
+        portfolioLink:
+          "https://www.behance.net/themaryanjuguna",
+      },
+      {
+        img: "img/portfolio/waridi-headers.png",
+        width: 400,
+        height: 700,
+        title: "Letterhead Design",
+        subTitle: "Branding",
+        alterText: "Letterhead Mockup",
+        delayAnimation: "200",
+        portfolioLink:
+          "https://www.behance.net/themaryanjuguna",
+      },
+      {
+        img: "img/portfolio/smart-learners.png",
+        width: 400,
+        height: 400,
+        title: "Smart Learners Logo",
+        subTitle: "Branding",
+        alterText: "Smart Learners Logo",
+        delayAnimation: "200",
+        portfolioLink:
+          "https://www.behance.net/themaryanjuguna",
+      },
+    ],
+  },
+ 
+  {
+    // Branding end
+    // product start
+    portfolioItems: [  
+      {
+        img: "img/portfolio/isic-bank-card.png",
+        width: 400,
+        height: 400,
+        title: "ISIC Co-brand Card Design",
+        subTitle: "Product",
+        alterText: "ISIC Co-branded Financial Bank Card Design",
+        delayAnimation: "100",
+        portfolioLink: "https://www.behance.net/gallery/30539859/ISIC-Co-branded-Cards-in-Kenya",
+      },
+      {
+        img: "img/portfolio/isic-academic-cobranded-card.png",
+        width: 400,
+        height: 500,
+        title: "ISIC Co-brand Card Design",
+        subTitle: "Product",
+        alterText: "International Student Identity Card (ISIC) Co-branded Financial Bank Card Design",
+        delayAnimation: "0",
+        portfolioLink: "https://www.behance.net/gallery/30539859/ISIC-Co-branded-Cards-in-Kenya",
+      },
+      {
+        img: "img/portfolio/bakeking-home.png",
+        width: 400,
+        height: 400,
+        title: "BakeKing Home Cake Mix Packaging",
+        subTitle: "Product",
+        alterText: "BakeKing Home Cake Mix Packaging",
+        delayAnimation: "100",
+        portfolioLink: "https://www.behance.net/gallery/30539859/ISIC-Co-branded-Cards-in-Kenya",
+      },
+      {
+        img: "img/portfolio/handwash.png",
+        width: 400,
+        height: 700,
+        title: "Handwash Label Design",
+        subTitle: "Product",
+        alterText: "Handwash Label Design",
+        delayAnimation: "200",
+        portfolioLink:
+          "linktr.ee/themaryanjuguna",
+      },
+      {
+        img: "img/portfolio/bakeking-granola.png",
+        width: 400,
+        height: 400,
+        title: "BakeKing Granola Packaging",
+        subTitle: "Product",
+        alterText: "BakeKing Granola Packaging",
+        delayAnimation: "200",
+        portfolioLink: "https://www.behance.net/gallery/30539859/ISIC-Co-branded-Cards-in-Kenya",
+      },
+    ],
+  },
+//  product end
+// Application start
+  {
+    portfolioItems: [
+      {
+        img: "img/portfolio/Website-mockup.png",
+        width: 400,
+        height: 500,
+        title: "Web Application Design",
+        subTitle: "Application",
+        alterText: "Web Application Mockup",
+        delayAnimation: "100",
+        portfolioLink:
+          "https://www.behance.net/themaryanjuguna",
+      },
+      {
+        img: "img/portfolio/Mobile-app-mockup.png",
+        width: 400,
+        height: 550,
+        title: "Property Management Android App Design",
+        subTitle: "Application",
+        alterText: "Moringa Team Project",
+        delayAnimation: "0",
+        portfolioLink:
+          "https://www.behance.net/themaryanjuguna",
+      },
+    ],
+  },
 
+// Application end
+// Marketing start
+ 
+  {
+    portfolioItems: [
       {
-        img: "/img/portfolio/m-portfolio-5.jpg",
+        img: "img/portfolio/Hardcover-Book.png",
         width: 400,
-        height: 700,
-        title: "Chatting Application",
-        subTitle: "Codecanyon Market",
-        alterText: "Bottle Illustration",
+        height: 500,
+        title: "Flyer Design",
+        subTitle: "Marketing",
+        alterText: "Flyer Mockup",
         delayAnimation: "100",
         portfolioLink:
-          "https://dribbble.com/shots/16529158-Waxon-Personal-Portfolio-VueJS-Template-RTL",
+          "https://linktr.ee/themaryanjuguna",
       },
       {
-        img: "/img/portfolio/m-portfolio-6.jpg",
+        img: "img/portfolio/flyer.png",
         width: 400,
-        height: 550,
-        title: "Web Application",
-        subTitle: "Behance Shot",
-        alterText: "Web Application",
+        height: 500,
+        title: "Flyer Design",
+        subTitle: "Marketing",
+        alterText: "Flyer Mockup",
+        delayAnimation: "0",
+        portfolioLink:
+          "https://linktr.ee/themaryanjuguna",
+      },
+      {
+        img: "img/portfolio/lamp-post-banner.png",
+        width: 400,
+        height: 700,
+        title: "Lamp Post Banner",
+        subTitle: "Marketing",
+        alterText: "Lamp Post Banner",
+        delayAnimation: "0",
+        portfolioLink:
+          "https://linktr.ee/themaryanjuguna",
+      },
+      {
+        img: "img/portfolio/billboard-mockup.png",
+        width: 400,
+        height: 500,
+        title: "Billboard Banner",
+        subTitle: "Marketing",
+        alterText: "Billboard Banner",
         delayAnimation: "200",
         portfolioLink:
-          "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
+          "https://linktr.ee/themaryanjuguna",
+      },
+      {
+        img: "img/portfolio/Roll-Up-Banner.png",
+        width: 400,
+        height: 700,
+        title: "Roll Up Banner",
+        subTitle: "Marketing",
+        alterText: "Roll Up Banner",
+        delayAnimation: "100",
+        portfolioLink:
+          "https://linktr.ee/themaryanjuguna",
+      },
+      {
+        img: "img/portfolio/hoodie-mockup-front-View.png",
+        width: 400,
+        height: 700,
+        title: "Hoodie Design",
+        subTitle: "Marketing",
+        alterText: "Hoodie Mockup",
+        delayAnimation: "0",
+        portfolioLink:
+          "https://www.behance.net/themaryanjuguna",
       },
     ],
   },
-  {
-    porftoliItems: [
-      {
-        img: "/img/portfolio/m-portfolio-1.jpg",
-        width: 400,
-        height: 550,
-        title: "Bottle Illustration",
-        subTitle: "Figma Shoot",
-        alterText: "Bottle Illustration",
-        delayAnimation: "",
-        portfolioLink:
-          "https://dribbble.com/shots/16529339-Beny-Personal-Portfolio-React-Template",
-      },
-      {
-        img: "/img/portfolio/m-portfolio-7.jpg",
-        width: 400,
-        height: 700,
-        title: "Business Card",
-        subTitle: "Graphicriver Market",
-        alterText: "Business Card",
-        delayAnimation: "100",
-        portfolioLink:
-          "https://dribbble.com/shots/16529282-Shane-Personal-Portfolio-React-Template",
-      },
-      {
-        img: "/img/portfolio/m-portfolio-9.jpg",
-        width: 400,
-        height: 400,
-        title: "Web Motion",
-        subTitle: "Behance Shot",
-        alterText: "Web Motion",
-        delayAnimation: "200",
-        portfolioLink: "https://www.facebook.com/ibthemes",
-      },
-    ],
-  },
-  {
-    porftoliItems: [
-      {
-        img: "/img/portfolio/m-portfolio-2.jpg",
-        width: 400,
-        height: 400,
-        title: "E-Learning App",
-        subTitle: "Nuna ios App",
-        alterText: "Illustration",
-        delayAnimation: "",
-        portfolioLink:
-          "https://dribbble.com/shots/16529350-Nairo-Personal-Portfolio-React-Template",
-      },
-      {
-        img: "/img/portfolio/m-portfolio-3.jpg",
-        width: 400,
-        height: 700,
-        title: "Visual Design",
-        subTitle: "Themeforest Marke",
-        alterText: "Business Mockup",
-        delayAnimation: "100",
-        portfolioLink:
-          "https://dribbble.com/shots/16529407-Deski-Saas-Software-React-Template",
-      },
+ 
 
-      {
-        img: "/img/portfolio/m-portfolio-5.jpg",
-        width: 400,
-        height: 700,
-        title: "Chatting Application",
-        subTitle: "Codecanyon Market",
-        alterText: "Bottle Illustration",
-        delayAnimation: "200",
-        portfolioLink:
-          "https://dribbble.com/shots/16529158-Waxon-Personal-Portfolio-VueJS-Template-RTL",
-      },
-      {
-        img: "/img/portfolio/m-portfolio-6.jpg",
-        width: 400,
-        height: 550,
-        title: "Web Application",
-        subTitle: "Behance Shot",
-        alterText: "Web Application",
-        delayAnimation: "300",
-        portfolioLink:
-          "https://dribbble.com/shots/16529226-Krozo-Personal-Portfolio-React-Template",
-      },
-    ],
-  },
 ];
 
 const PortfolioAnimation = () => {
@@ -308,7 +433,7 @@ const PortfolioAnimation = () => {
                   className="my-masonry-grid"
                   columnClassName="my-masonry-grid_column"
                 >
-                  {tabContent.porftoliItems.map((val, i) => (
+                  {tabContent.portfolioItems.map((val, i) => (
                     <div
                       className="portfolio-box-01"
                       key={i}
