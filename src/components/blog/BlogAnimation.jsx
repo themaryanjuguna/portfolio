@@ -109,8 +109,7 @@ const News = () => {
               <div className="meta">22/JUN/2023 - BY NYAMBURA</div>
               <h6>
                 <a>
-                  What You Know About Design And What You Don't Know About
-                  Design.
+                The Art of Product Design: More Than Just a Pretty Face
                 </a>
               </h6>
             </div>
@@ -131,7 +130,7 @@ const News = () => {
       >
         <div>
           <button className="close-modal" onClick={toggleModalOne}>
-            <img src="/img/cancel.svg" alt="close icon" />
+            <img src="img/cancel.svg" alt="close icon" />
           </button>
           {/* End close icon */}
 
@@ -261,7 +260,7 @@ const News = () => {
       >
         <div>
           <button className="close-modal" onClick={toggleModalTwo}>
-            <img src="/img/cancel.svg" alt="close icon" />
+            <img src="img/cancel.svg" alt="close icon" />
           </button>
           {/* End close icon */}
 
@@ -402,7 +401,7 @@ const News = () => {
       >
         <div>
           <button className="close-modal" onClick={toggleModalThree}>
-            <img src="/img/cancel.svg" alt="close icon" />
+            <img src="img/cancel.svg" alt="close icon" />
           </button>
           {/* End close icon */}
 
@@ -411,7 +410,7 @@ const News = () => {
               <div className="blog-grid">
                 <div className="blog-img">
                   <img
-                    src="/img/blog/HTYRLxskBEhkRGNJ.png"
+                    src="img/blog/HTYRLxskBEhkRGNJ.png"
                     alt="blog post"
                   ></img>
                 </div>
@@ -536,7 +535,7 @@ const News = () => {
       >
         <div>
           <button className="close-modal" onClick={toggleModalFour}>
-            <img src="/img/cancel.svg" alt="close icon" />
+            <img src="img/cancel.svg" alt="close icon" />
           </button>
           {/* End close icon */}
 
