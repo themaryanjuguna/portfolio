@@ -36,7 +36,7 @@ const tabListContent = [
         alterText: "Logo Lightbox",
         delayAnimation: "100",
         portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
+          "https://www.behance.net/themaryanjuguna",
       },
       {
         img: "img/portfolio/waridi-headers.png",
@@ -47,7 +47,7 @@ const tabListContent = [
         alterText: "Letterhead Mockup",
         delayAnimation: "200",
         portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
+          "https://www.behance.net/themaryanjuguna",
       },
       {
         img: "img/portfolio/Hardcover-Book.png",
@@ -58,7 +58,7 @@ const tabListContent = [
         alterText: "Flyer Mockup",
         delayAnimation: "100",
         portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
+          "https://www.behance.net/themaryanjuguna",
       },
       {
         img: "img/portfolio/flyer.png",
@@ -69,7 +69,7 @@ const tabListContent = [
         alterText: "Flyer Mockup",
         delayAnimation: "0",
         portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
+          "https://www.behance.net/themaryanjuguna",
       },
       {
         img: "img/portfolio/smart-learners.png",
@@ -80,7 +80,7 @@ const tabListContent = [
         alterText: "Smart Learners Logo",
         delayAnimation: "200",
         portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
+          "https://www.behance.net/themaryanjuguna",
       },
       {
         img: "img/portfolio/lamp-post-banner.png",
@@ -91,7 +91,7 @@ const tabListContent = [
         alterText: "Lamp Post Banner",
         delayAnimation: "0",
         portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
+          "https://www.behance.net/themaryanjuguna",
       },
       {
         img: "img/portfolio/billboard-mockup.png",
@@ -102,7 +102,7 @@ const tabListContent = [
         alterText: "Billboard Banner",
         delayAnimation: "200",
         portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
+          "https://www.behance.net/themaryanjuguna",
       },
       {
         img: "img/portfolio/Roll-Up-Banner.png",
@@ -113,7 +113,7 @@ const tabListContent = [
         alterText: "Roll Up Banner",
         delayAnimation: "100",
         portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
+          "https://www.behance.net/themaryanjuguna",
       },
       {
         img: "img/portfolio/hoodie-mockup-front-View.png",
@@ -124,7 +124,7 @@ const tabListContent = [
         alterText: "Hoodie Mockup",
         delayAnimation: "0",
         portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
+          "https://www.behance.net/themaryanjuguna",
       },
       {
         img: "img/portfolio/Website-mockup.png",
@@ -135,7 +135,7 @@ const tabListContent = [
         alterText: "Web Application Mockup",
         delayAnimation: "100",
         portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
+          "https://www.behance.net/themaryanjuguna",
       },
       {
         img: "img/portfolio/Mobile-app-mockup.png",
@@ -146,7 +146,7 @@ const tabListContent = [
         alterText: "Moringa Team Project",
         delayAnimation: "0",
         portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
+          "https://www.behance.net/themaryanjuguna",
       },
       {
         img: "img/portfolio/isic-bank-card.png",
@@ -224,7 +224,7 @@ const tabListContent = [
         alterText: "Logo Lightbox",
         delayAnimation: "100",
         portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
+          "https://www.behance.net/themaryanjuguna",
       },
       {
         img: "img/portfolio/waridi-headers.png",
@@ -235,7 +235,7 @@ const tabListContent = [
         alterText: "Letterhead Mockup",
         delayAnimation: "200",
         portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
+          "https://www.behance.net/themaryanjuguna",
       },
       {
         img: "img/portfolio/smart-learners.png",
@@ -246,7 +246,7 @@ const tabListContent = [
         alterText: "Smart Learners Logo",
         delayAnimation: "200",
         portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
+          "https://www.behance.net/themaryanjuguna",
       },
     ],
   },
@@ -321,7 +321,7 @@ const tabListContent = [
         alterText: "Web Application Mockup",
         delayAnimation: "100",
         portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
+          "https://www.behance.net/themaryanjuguna",
       },
       {
         img: "img/portfolio/Mobile-app-mockup.png",
@@ -332,7 +332,7 @@ const tabListContent = [
         alterText: "Moringa Team Project",
         delayAnimation: "0",
         portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
+          "https://www.behance.net/themaryanjuguna",
       },
     ],
   },
@@ -406,7 +406,7 @@ const tabListContent = [
         alterText: "Hoodie Mockup",
         delayAnimation: "0",
         portfolioLink:
-          "https://linktr.ee/themaryanjuguna",
+          "https://www.behance.net/themaryanjuguna",
       },
     ],
   },
