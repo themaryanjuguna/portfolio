@@ -40,6 +40,14 @@ npm run build
 ```
 npm run lint
 ```
+### Deploy on gh-pages
+
+```
+npm install --save gh-pages --force 
+npm run build
+npm run deploy
+```
+For further instructions see [DEPLOYING.md](DEPLOYING.md)
 
 ### Customize configuration (vue-cli)
 
