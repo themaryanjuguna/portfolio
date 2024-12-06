@@ -62,8 +62,7 @@ const News = () => {
               <div className="meta">05/JAN/2020 - BY NYAMBURA </div>
               <h6>
                 <a>
-                  Ten Mind-Blowing Reasons Why Design Is Using This Technique
-                  For Exposure.
+                The Role of ML and AI in Sleep Technology: Dreaming Smarter
                 </a>
               </h6>
             </div>
@@ -86,7 +85,7 @@ const News = () => {
               <div className="meta">12/AUG/2020 - BY NYAMBURA</div>
               <h6>
                 <a>
-                  I Will Tell You The Truth About Design In The Next 60 Seconds.
+                The Role of ML and AI in Sleep Technology: Dreaming Smarter
                 </a>
               </h6>
             </div>
@@ -288,15 +287,14 @@ const News = () => {
                 <article className="article">
                   <div className="article-title">
                     <h2>
-                      Ten Mind-Blowing Reasons Why Design Is Using This
-                      Technique For Exposure.
+                    The Role of ML and AI in Sleep Technology: Dreaming Smarter.
                     </h2>
                     <div className="media">
                       <div className="avatar">
                         <img src="img/testimonial/team-2.jpg" alt="thumbnail" />
                       </div>
                       <div className="media-body">
-                        <label>BY SMITH</label>
+                        <label>BY NYAMBURA</label>
                         <span>05 JAN 2020</span>
                       </div>
                     </div>
@@ -305,49 +303,25 @@ const News = () => {
 
                   <div className="article-content">
                     <p>
-                      Aenean eleifend ante maecenas pulvinar montes lorem et
-                      pede dis dolor pretium donec dictum. Vici consequat justo
-                      enim. Venenatis eget adipiscing luctus lorem. Adipiscing
-                      veni amet luctus enim sem libero tellus viverra venenatis
-                      aliquam. Commodo natoque quam pulvinar elit.
+                    Gone are the days when counting sheep was our best sleep aid. In today’s tech-driven world, Machine Learning (ML) and Artificial Intelligence (AI) are redefining the way we sleep—helping us understand, monitor, and improve this critical yet often elusive aspect of life.
                     </p>
                     <p>
-                      Eget aenean tellus venenatis. Donec odio tempus. Felis
-                      arcu pretium metus nullam quam aenean sociis quis sem
-                      neque vici libero. Venenatis nullam fringilla pretium
-                      magnis aliquam nunc vulputate integer augue ultricies
-                      cras. Eget viverra feugiat cras ut. Sit natoque montes
-                      tempus ligula eget vitae pede rhoncus maecenas
-                      consectetuer commodo condimentum aenean.
-                    </p>
-                    <h4>What are my payment options?</h4>
+                    At the forefront of sleep technology are smart sleep trackers, which do more than just count snores. Using ML algorithms, they analyze data from your heart rate, breathing patterns, and body movements to provide personalized insights. The result? You no longer wake up wondering why you feel like you’ve been hit by a truck—your tracker has the answers.
+                    </p>                  
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    But AI doesn’t stop there. It powers adaptive sleep environments, like smart beds and lighting systems, which adjust based on your sleep stages. If you’re in deep sleep, AI ensures nothing interrupts you—not even your neighbor’s barking dog. And let’s not forget AI-driven apps that offer real-time relaxation techniques and sleep coaching, tailored to your unique patterns.
                     </p>
-                    <blockquote>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam.
-                      </p>
+                    <p>
+                    For those with sleep disorders, ML and AI play an even bigger role. They’re helping identify conditions like insomnia, sleep apnea, and narcolepsy through non-invasive, at-home solutions, reducing the reliance on costly sleep clinics. By analyzing vast datasets, AI systems can detect subtle patterns doctors might miss, enabling earlier intervention.
+                    </p>
+                    <p>However, the real magic lies in the future. As AI becomes smarter, sleep tech will likely evolve into a seamless ecosystem—one that not only monitors but actively optimizes sleep, creating truly restorative nights.</p>
+                    <p>So, the next time you lie down to sleep, remember: AI is working overtime to ensure your dreams are sweet, your sleep is sound, and your mornings are brighter. Goodnight, sleep tight, and let the algorithms do the rest.</p>              
+                    <blockquote>                  
                       <p className="blockquote-footer">
-                        Someone famous in{" "}
-                        <cite title="Source Title">Dick Grayson</cite>
+                      Want to dive deeper? Check out resources like{" "}
+                        <cite title="Source Title"><a href="https://www.thensf.org/" target="_blank" rel="noreferrer">The Sleep Foundation </a>or <a href="https://executive.mit.edu/course/artificial-intelligence-in-health-care/a056g00000URaaTAAT.html" target="_blank" rel="noreferrer">MIT AI in Healthcare</a>.</cite>
                       </p>
-                    </blockquote>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
-                    </p>
+                    </blockquote>                   
                   </div>
                   {/* End article content */}
                   <ul className="nav tag-cloud">
