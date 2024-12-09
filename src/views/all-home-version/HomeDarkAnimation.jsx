@@ -5,7 +5,7 @@ import About from "../../components/about/AboutAnimation";
 import Resume from "../../components/resume/ResumeAnimation";
 import Portfolio from "../../components/portfolio/PortfolioAnimation";
 import Blog from "../../components/blog/BlogAnimation";
-// import Contact from "../../components/contact/Contact";
+import Contact from "../../components/contact/Contact";
 import ContactInfo from "../../components/contact/ContactInfo";
 import Map from "../../components/contact/Map";
 import Footer from "../../components/footer/FooterAnimation";
@@ -68,13 +68,13 @@ const HomeOne = () => {
               data-aos-delay="200"
             >
               <div className="contact-form">
-                {/* <h4>Say Something</h4> */}
-                <Map />
+                <h4>Say Something</h4>
+                <Contact />
               </div>
             </div>
             {/* End contact form */}
 
-            {/* <div
+            <div
               className="col-12"
               data-aos="fade-up"
               data-aos-duration="1200"
@@ -82,7 +82,7 @@ const HomeOne = () => {
             >
               <Map />
               {/* End google-map */}
-            {/* </div>  */}
+            </div>
             {/* End Col */}
           </div>
         </div>
