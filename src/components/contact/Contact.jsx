@@ -1,12 +1,19 @@
-import React from "react";
+import React, { useState }from "react";
 import { useForm } from "react-hook-form";
 import axios from "axios";
 
 const Contact = () => {
+  const [data, setData] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    comment:"",
+  }); 
+
   const {
     register,
     handleSubmit,
-    formState: { errors },
+    formState:  { errors },
   } = useForm();
 
   // const onSubmit = (data, e) => {
@@ -14,22 +21,23 @@ const Contact = () => {
   //   console.log("Message submited: " + JSON.stringify(data));
   // };
 
-  const onSubmit = async (DataTransfer, e) => {
+  const onSubmit = async (formData, e) => {
     e.preventDefault();
+    console.log("Form Data Submitted", formData);
 
     //Access environment variables
     const airtableBaseUrl = process.env.REACT_APP_AIRTABLE_BASE_URL;
     const airtablePat = `Bearer ${process.env.REACT_APP_AIRTABLE_PAT}`;
 
     try {
-      await axios.post(
+      const response = await axios.post(
         airtableBaseUrl,
         {
           fields: {
-            Name: data.name,
-            Email: data.email,
-            Subject: data.subject,
-            Comment: data.comment,
+            Name: formData.name,
+            Email: formData.email,
+            Subject: formData.subject,
+            Comment: formData.comment,
           },
         },
         {
@@ -48,6 +56,11 @@ const Contact = () => {
     }
   };
 
+  const handleInputChange = (e) => {
+    const { name, value} =e.target;
+    setData({...data, [name]: value});
+  };
+
   return (
     <>
       <form onSubmit={handleSubmit(onSubmit)}>
@@ -56,6 +69,8 @@ const Contact = () => {
             <div className="form-group mb-3">
               <input
                 type="text"
+                name="name"
+                value={data.name}
                 className="form-control theme-light"
                 placeholder="Full name"
                 {...register("name", { required: true })}
@@ -71,6 +86,9 @@ const Contact = () => {
             <div className="form-group mb-3">
               <input
                 type="email"
+                name="email"
+                value={data.email}
+                onChange={handleInputChange}
                 className="form-control theme-light"
                 placeholder="Email address"
                 {...register(
@@ -96,6 +114,9 @@ const Contact = () => {
             <div className="form-group mb-3">
               <input
                 type="text"
+                name="subject"
+                value={data.subject}
+                onChange={handleInputChange}
                 className="form-control theme-light"
                 placeholder="Subject"
                 {...register("subject", { required: true })}
@@ -111,6 +132,9 @@ const Contact = () => {
             <div className="form-group mb-3">
               <textarea
                 rows="4"
+                name="comment"
+                value={data.comment}
+                onChange={handleInputChange}
                 className="form-control theme-light"
                 placeholder="Type comment"
                 {...register("comment", { required: true })}
