@@ -1,5 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
+import axios from "axios";
 
 const Contact = () => {
   const {
@@ -8,9 +9,43 @@ const Contact = () => {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data, e) => {
-    e.target.reset();
-    console.log("Message submited: " + JSON.stringify(data));
+  // const onSubmit = (data, e) => {
+  //   e.target.reset();
+  //   console.log("Message submited: " + JSON.stringify(data));
+  // };
+
+  const onSubmit = async (DataTransfer, e) => {
+    e.preventDefault();
+
+    //Access environment variables
+    const airtableBaseUrl = process.env.REACT_APP_AIRTABLE_BASE_URL;
+    const airtablePat = `Bearer ${process.env.REACT_APP_AIRTABLE_PAT}`;
+
+    try {
+      await axios.post(
+        airtableBaseUrl,
+        {
+          fields: {
+            Name: data.name,
+            Email: data.email,
+            Subject: data.subject,
+            Comment: data.comment,
+          },
+        },
+        {
+          headers: {
+            Authorization: airtablePat,
+            "Content-Type": "application/json",
+          },
+        }
+      );
+
+      alert("Your message has been submitted successfully!");
+      e.target.reset();
+    } catch (error){
+      console.error("Error submitting to Airtable",error);
+      alert("There was an issue subitting your message. Please try again.")
+    }
   };
 
   return (
