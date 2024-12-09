@@ -1,35 +1,26 @@
-import React, { useState }from "react";
+import React from "react";
 import { useForm } from "react-hook-form";
 import axios from "axios";
 
 const Contact = () => {
-  const [data, setData] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    comment:"",
-  }); 
-
+  // Initialize react-hook-form
   const {
     register,
     handleSubmit,
-    formState:  { errors },
+    formState: { errors },
+    reset, // Allows form reset after submission
   } = useForm();
 
-  // const onSubmit = (data, e) => {
-  //   e.target.reset();
-  //   console.log("Message submited: " + JSON.stringify(data));
-  // };
+  // Submit handler for form data
+  const onSubmit = async (formData) => {
+    console.log("Form Data Submitted:", formData);
 
-  const onSubmit = async (formData, e) => {
-    e.preventDefault();
-    console.log("Form Data Submitted", formData);
-
-    //Access environment variables
+    // Access environment variables for Airtable
     const airtableBaseUrl = process.env.REACT_APP_AIRTABLE_BASE_URL;
     const airtablePat = `Bearer ${process.env.REACT_APP_AIRTABLE_PAT}`;
 
     try {
+      // Send POST request to Airtable
       const response = await axios.post(
         airtableBaseUrl,
         {
@@ -48,110 +39,95 @@ const Contact = () => {
         }
       );
 
+      console.log("Data successfully submitted to Airtable:", response.data);
       alert("Your message has been submitted successfully!");
-      e.target.reset();
-    } catch (error){
-      console.error("Error submitting to Airtable",error);
-      alert("There was an issue subitting your message. Please try again.")
-    }
-  };
 
-  const handleInputChange = (e) => {
-    const { name, value} =e.target;
-    setData({...data, [name]: value});
+      // Reset form fields after successful submission
+      reset();
+    } catch (error) {
+      console.error("Error submitting to Airtable:", error);
+      alert("There was an issue submitting your message. Please try again.");
+    }
   };
 
   return (
     <>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="row">
+          {/* Full Name Input */}
           <div className="col-md-6">
             <div className="form-group mb-3">
               <input
                 type="text"
-                name="name"
-                value={data.name}
                 className="form-control theme-light"
                 placeholder="Full name"
-                {...register("name", { required: true })}
+                {...register("name", { required: "Name is required" })}
               />
-              {errors.name && errors.name.type === "required" && (
-                <span className="invalid-feedback">Name is required</span>
+              {errors.name && (
+                <span className="invalid-feedback">{errors.name.message}</span>
               )}
             </div>
           </div>
-          {/* End .col-6 */}
 
+          {/* Email Input */}
           <div className="col-md-6">
             <div className="form-group mb-3">
               <input
                 type="email"
-                name="email"
-                value={data.email}
-                onChange={handleInputChange}
                 className="form-control theme-light"
                 placeholder="Email address"
-                {...register(
-                  "email",
-                  {
-                    required: "Email is Required",
-                    pattern: {
-                      value: /\S+@\S+\.\S+/,
-                      message: "Entered value does not match email format",
-                    },
+                {...register("email", {
+                  required: "Email is required",
+                  pattern: {
+                    value: /\S+@\S+\.\S+/,
+                    message: "Invalid email format",
                   },
-                  { required: true }
-                )}
+                })}
               />
               {errors.email && (
                 <span className="invalid-feedback">{errors.email.message}</span>
               )}
             </div>
           </div>
-          {/* End .col-6 */}
 
+          {/* Subject Input */}
           <div className="col-12">
             <div className="form-group mb-3">
               <input
                 type="text"
-                name="subject"
-                value={data.subject}
-                onChange={handleInputChange}
                 className="form-control theme-light"
                 placeholder="Subject"
-                {...register("subject", { required: true })}
+                {...register("subject", { required: "Subject is required" })}
               />
               {errors.subject && (
-                <span className="invalid-feedback">Subject is required.</span>
+                <span className="invalid-feedback">{errors.subject.message}</span>
               )}
             </div>
           </div>
-          {/* End .col-12 */}
 
+          {/* Comment Textarea */}
           <div className="col-12">
             <div className="form-group mb-3">
               <textarea
                 rows="4"
-                name="comment"
-                value={data.comment}
-                onChange={handleInputChange}
                 className="form-control theme-light"
                 placeholder="Type comment"
-                {...register("comment", { required: true })}
+                {...register("comment", { required: "Comment is required" })}
               ></textarea>
               {errors.comment && (
-                <span className="invalid-feedback">Comment is required.</span>
+                <span className="invalid-feedback">{errors.comment.message}</span>
               )}
             </div>
           </div>
-          {/* End .col-12 */}
 
+          {/* Submit Button */}
           <div className="col-12">
             <div className="btn-bar">
-              <button className="px-btn px-btn-white">Send Message</button>
+              <button type="submit" className="px-btn px-btn-white">
+                Send Message
+              </button>
             </div>
           </div>
-          {/* End .col-12 */}
         </div>
       </form>
     </>
