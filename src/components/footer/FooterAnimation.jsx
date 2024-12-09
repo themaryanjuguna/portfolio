@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa";
 
 const SocialShare = [
-  { Social: <FaFacebookF />, link: "https://www.facebook.com/themaryanjuguna" },
+  { Social: <FaFacebookF />, link: "#" },
   { Social: <FaTwitter />, link: "https://twitter.com/themaryanjuguna" },
   { Social: <FaInstagram />, link: "https://www.instagram.com/themaryanjuguna/" },
   { Social: <FaLinkedinIn />, link: "https://www.linkedin.com/in/themaryanjuguna" },
