@@ -22,7 +22,7 @@ const Contact = () => {
         },
       });
 
-      console.log("Form submitted successfully:", response.data);
+    console.log("Form submitted successfully:", response.data);
       alert("Your message has been sent successfully!");
 
       // Reset form fields
