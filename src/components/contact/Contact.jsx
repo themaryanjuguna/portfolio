@@ -13,39 +13,25 @@ const Contact = () => {
 
   // Submit handler for form data
   const onSubmit = async (formData) => {
-    console.log("Form Data Submitted:", formData);
-
-    // Access environment variables for Airtable
-    const airtableBaseUrl = process.env.REACT_APP_AIRTABLE_BASE_URL;
-    const airtablePat = `Bearer ${process.env.REACT_APP_AIRTABLE_PAT}`;
-
     try {
-      // Send POST request to Airtable
+      // POST request to backend
       const response = await axios.post(
-        airtableBaseUrl,
-        {
-          fields: {
-            Name: formData.name,
-            Email: formData.email,
-            Subject: formData.subject,
-            Comment: formData.comment,
-          },
-        },
+        "https://porfoliobackend-3ja5.onrender.com/submit",
+        formData,
         {
           headers: {
-            Authorization: airtablePat,
             "Content-Type": "application/json",
           },
         }
       );
 
-      console.log("Data successfully submitted to Airtable:", response.data);
-      alert("Your message has been submitted successfully!");
+      console.log("Form submitted successfully:", response.data);
+      alert("Your message has been sent successfully!");
 
-      // Reset form fields after successful submission
+      // Reset form fields
       reset();
     } catch (error) {
-      console.error("Error submitting to Airtable:", error);
+      console.error("Error submitting the form:", error.response?.data || error.message);
       alert("There was an issue submitting your message. Please try again.");
     }
   };
