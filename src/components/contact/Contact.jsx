@@ -15,8 +15,10 @@ const Contact = () => {
   const onSubmit = async (formData) => {
     try {
       // POST request to backend
-      const API_URL = process.env.REACT_APP_API_URL;
-      const response = await axios.post(API_URL, formData, {
+      const response = await axios.post(
+        "https://porfoliobackend-3ja5.onrender.com/submit",
+        formData,
+        {
         headers: {
           "Content-Type": "application/json",
         },
