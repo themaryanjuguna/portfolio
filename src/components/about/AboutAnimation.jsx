@@ -18,7 +18,7 @@ const About = () => {
               <div className="about-me">
                 <div className="img">
                   <div className="img-in">
-                    <img src="img/about/about-me.jpg" alt="about" />
+                    <img src="./img/about/about-me.jpg" alt="about" />
                   </div>
 
                   <Social />
@@ -27,7 +27,7 @@ const About = () => {
                 </div>
                 {/* End img */}
                 <div className="info">
-                  <p>Graphic & Web | UX/UI Designer</p>
+                  <p>Graphic & WordPress Designer | Frontend Developer</p>
                   <h3>Maryanne Nyambura</h3>
                 </div>
                 {/* End info */}
@@ -48,27 +48,9 @@ const About = () => {
                 </div>
 
                 <div className="about-text">
-                  <p>I'm a seasoned branding consultant with over a decade of experience, located in Nairobi, Kenya, 
-                    and actively engaged in online projects. My expertise lies in graphic and WordPress design, with a 
-                    focus on frontend development. 
-                  </p>
-                  <p>As an aspiring UX/UI Designer, I am passionate and skilled in creating meaningful and visually 
-                  appealing designs. Currently pursuing a degree in Computer Science at Kibo School, I am inspired to 
-                  expand my knowledge in inclusive design to develop solutions that empower diverse users through 
-                  accessible and user-friendly design practices.
-                  </p>
-                  <p>
-                  In addition to my roles as a branding consultant and designer, I am a dedicated Patient Advocate 
-                  committed to raising awareness about narcolepsy and non-communicable diseases (NCDs).
-                  With a fervent belief in the power of advocacy, I actively engage in initiatives to promote understanding 
-                  and knowledge about narcolepsy, advocating for greater support and resources for individuals affected by 
-                  this condition. Additionally, my commitment extends to addressing broader issues related to non-communicable diseases, 
-                  working towards fostering a healthier and more informed community. 
-                  </p>
-                  <p> 
-                  Through my multifaceted approach, I aim to contribute to a society that is well-informed, empathetic, 
-                  and supportive of individuals facing health challenges.
-                  </p>
+                  <p>I am a seasoned branding consultant with over a decade of experience, specializing in graphic and WordPress design. Based in Nairobi, Kenya, I am now expanding my expertise into frontend web development, exploring new ways to create meaningful, visually appealing, and functional designs for clients.</p>
+                  <p>In addition to my professional work, I am a dedicated Patient Advocate living with narcolepsy. I share my lived experiences to empower patients, raise awareness of narcolepsy, rare diseases, and non-communicable diseases (NCDs), and advocate for inclusive health policies. My advocacy focuses on fostering understanding, empathy, and support for individuals facing health challenges.</p>
+                  <p>By blending my design expertise, growing frontend development skills, and passion for advocacy, I aim to contribute to a world where impactful branding, accessible web design, and informed health policies drive meaningful change.</p>
                 </div>
                 <div className="info-list">
                   <div className="row">
@@ -125,7 +107,7 @@ const About = () => {
             className="separated"
             style={{
               backgroundImage: `url(${
-                process.env.PUBLIC_URL + "img/border-dark.png"
+                process.env.PUBLIC_URL + "./img/border-dark.png"
               })`,
             }}
           ></div>
@@ -144,7 +126,7 @@ const About = () => {
             className="separated"
             style={{
               backgroundImage: `url(${
-                process.env.PUBLIC_URL + "img/border-dark.png"
+                process.env.PUBLIC_URL + "./img/border-dark.png"
               })`,
             }}
           ></div>
@@ -162,7 +144,7 @@ const About = () => {
             className="separated"
             style={{
               backgroundImage: `url(${
-                process.env.PUBLIC_URL + "img/border-dark.png"
+                process.env.PUBLIC_URL + "./img/border-dark.png"
               })`,
             }}
           ></div>
