@@ -39,7 +39,7 @@ const Contact = () => {
       });
 
       // Reset form fields
-      reset();
+      reset({ name: "", email: "", subject: "", comment: "" });
     } catch (error) {
       // Display error toast
       toast.error(
