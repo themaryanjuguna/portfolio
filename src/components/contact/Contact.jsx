@@ -16,7 +16,7 @@ const Contact = () => {
     try {
       // POST request to backend
       const response = await axios.post(
-        "https://porfoliobackend-3ja5.onrender.com/submit",
+        "https://porfoliobackend-3ja5.onrender.com",
         {
           name: formData.name,
           email: formData.email,
@@ -24,18 +24,20 @@ const Contact = () => {
           comment: formData.comment,
         },
         {
-        headers: {
-          "Content-Type": "application/json",
+          headers: { "Content-Type": "application/json" },
         },
-      });
+      );
 
-      console.log("Form submitted successfully:", response.data);
+    console.log("Form submitted successfully:", response.data);
       alert("Your message has been sent successfully!");
 
       // Reset form fields
       reset();
     } catch (error) {
-      console.error("Error submitting the form:", error.response?.data || error.message);
+      console.error(
+        "Error submitting the form:",
+        error.response?.data || error.message
+      );
       alert("There was an issue submitting your message. Please try again.");
     }
   };
@@ -50,7 +52,7 @@ const Contact = () => {
               <input
                 type="text"
                 className="form-control theme-light"
-                placeholder="Full name"
+                placeholder="Full Name"
                 {...register("name", { required: "Name is required" })}
               />
               {errors.name && (
@@ -90,7 +92,9 @@ const Contact = () => {
                 {...register("subject", { required: "Subject is required" })}
               />
               {errors.subject && (
-                <span className="invalid-feedback">{errors.subject.message}</span>
+                <span className="invalid-feedback">
+                  {errors.subject.message}
+                </span>
               )}
             </div>
           </div>
@@ -105,7 +109,9 @@ const Contact = () => {
                 {...register("comment", { required: "Comment is required" })}
               ></textarea>
               {errors.comment && (
-                <span className="invalid-feedback">{errors.comment.message}</span>
+                <span className="invalid-feedback">
+                  {errors.comment.message}
+                </span>
               )}
             </div>
           </div>
