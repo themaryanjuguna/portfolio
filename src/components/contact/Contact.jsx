@@ -17,12 +17,16 @@ const Contact = () => {
       // POST request to backend
       const response = await axios.post(
         "https://porfoliobackend-3ja5.onrender.com/submit",
-        formData,
         {
-        headers: {
-          "Content-Type": "application/json",
+          name: formData.name,
+          email: formData.email,
+          subject: formData.subject,
+          comment: formData.comment,
         },
-      });
+        {
+          headers: { "Content-Type": "application/json" },
+        },
+      );
 
     console.log("Form submitted successfully:", response.data);
       alert("Your message has been sent successfully!");
@@ -48,7 +52,7 @@ const Contact = () => {
               <input
                 type="text"
                 className="form-control theme-light"
-                placeholder="name"
+                placeholder="Full name"
                 {...register("name", { required: "Name is required" })}
               />
               {errors.name && (
@@ -63,7 +67,7 @@ const Contact = () => {
               <input
                 type="email"
                 className="form-control theme-light"
-                placeholder="email"
+                placeholder="Email address"
                 {...register("email", {
                   required: "Email is required",
                   pattern: {
@@ -84,7 +88,7 @@ const Contact = () => {
               <input
                 type="text"
                 className="form-control theme-light"
-                placeholder="subject"
+                placeholder="Subject"
                 {...register("subject", { required: "Subject is required" })}
               />
               {errors.subject && (
