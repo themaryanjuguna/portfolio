@@ -18,7 +18,7 @@ const About = () => {
               <div className="about-me">
                 <div className="img">
                   <div className="img-in">
-                    <img src="img/about/about-me.jpg" alt="about" />
+                    <img src="/img/about/about-me.jpg" alt="about" />
                   </div>
 
                   <Social />
@@ -125,7 +125,7 @@ const About = () => {
             className="separated"
             style={{
               backgroundImage: `url(${
-                process.env.PUBLIC_URL + "img/border-dark.png"
+                process.env.PUBLIC_URL + "/img/border-dark.png"
               })`,
             }}
           ></div>
@@ -144,7 +144,7 @@ const About = () => {
             className="separated"
             style={{
               backgroundImage: `url(${
-                process.env.PUBLIC_URL + "img/border-dark.png"
+                process.env.PUBLIC_URL + "/img/border-dark.png"
               })`,
             }}
           ></div>
@@ -162,7 +162,7 @@ const About = () => {
             className="separated"
             style={{
               backgroundImage: `url(${
-                process.env.PUBLIC_URL + "img/border-dark.png"
+                process.env.PUBLIC_URL + "/img/border-dark.png"
               })`,
             }}
           ></div>
