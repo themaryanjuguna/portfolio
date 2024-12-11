@@ -410,7 +410,7 @@ const News = () => {
               <div className="blog-grid">
                 <div className="blog-img">
                   <img
-                    src="img/blog/HTYRLxskBEhkRGNJ.png"
+                    src="./img/blog/HTYRLxskBEhkRGNJ.png"
                     alt="blog post"
                   ></img>
                 </div>
@@ -420,7 +420,7 @@ const News = () => {
                     <h2>The Role of ML and AI in Agritech & Agripreneurship</h2>
                     <div className="media">
                       <div className="avatar">
-                        <img src="img/testimonial/team-1.jpg" alt="thumbnail" />
+                        <img src="./img/testimonial/team-1.jpg" alt="thumbnail" />
                       </div>
                       <div className="media-body">
                         <label>BY NYAMBURA</label>
@@ -535,7 +535,7 @@ const News = () => {
       >
         <div>
           <button className="close-modal" onClick={toggleModalFour}>
-            <img src="img/cancel.svg" alt="close icon" />
+            <img src="./img/cancel.svg" alt="close icon" />
           </button>
           {/* End close icon */}
 
@@ -543,7 +543,7 @@ const News = () => {
             <div className="scrollable">
               <div className="blog-grid">
                 <div className="blog-img">
-                  <img src="img/blog/aotaro_A%20Drop%20Of%20Rainbow_YUdhQGZb.png" alt="blog post"></img>
+                  <img src="./img/blog/aotaro_A%20Drop%20Of%20Rainbow_YUdhQGZb.png" alt="blog post"></img>
                 </div>
                 {/* End blog-img */}
                 <article className="article">
@@ -553,7 +553,7 @@ const News = () => {
                     </h2>
                     <div className="media">
                       <div className="avatar">
-                        <img src="img/testimonial/team-1.jpg" alt="thumbnail" />
+                        <img src="./img/testimonial/team-1.jpg" alt="thumbnail" />
                       </div>
                       <div className="media-body">
                         <label>BY NYAMBURA</label>
