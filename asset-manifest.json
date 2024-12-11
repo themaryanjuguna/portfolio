@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/themaryanjuguna.github.io/portfolio/static/css/main.7c46292a.css",
-    "main.js": "/themaryanjuguna.github.io/portfolio/static/js/main.341cdd0c.js",
+    "main.js": "/themaryanjuguna.github.io/portfolio/static/js/main.4786e6e0.js",
     "static/js/787.dd2b7181.chunk.js": "/themaryanjuguna.github.io/portfolio/static/js/787.dd2b7181.chunk.js",
     "static/media/et-line.svg": "/themaryanjuguna.github.io/portfolio/static/media/et-line.613c7311d2d5a1dd7e49.svg",
     "static/media/et-line.woff": "/themaryanjuguna.github.io/portfolio/static/media/et-line.d59b23856f66f9876c47.woff",
@@ -13,11 +13,11 @@
     "index.html": "/themaryanjuguna.github.io/portfolio/index.html",
     "static/media/slick.woff": "/themaryanjuguna.github.io/portfolio/static/media/slick.295183786cd8a1389865.woff",
     "main.7c46292a.css.map": "/themaryanjuguna.github.io/portfolio/static/css/main.7c46292a.css.map",
-    "main.341cdd0c.js.map": "/themaryanjuguna.github.io/portfolio/static/js/main.341cdd0c.js.map",
+    "main.4786e6e0.js.map": "/themaryanjuguna.github.io/portfolio/static/js/main.4786e6e0.js.map",
     "787.dd2b7181.chunk.js.map": "/themaryanjuguna.github.io/portfolio/static/js/787.dd2b7181.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7c46292a.css",
-    "static/js/main.341cdd0c.js"
+    "static/js/main.4786e6e0.js"
   ]
 }
