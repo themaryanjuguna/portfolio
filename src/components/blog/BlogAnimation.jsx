@@ -34,7 +34,7 @@ const News = () => {
           <div className="blog-grid" onClick={toggleModalOne}>
             <div className="blog-img">
               <img
-                src={`img/blog/HTYRLxskBEhrRWNJZg.png`}
+                src={`./img/blog/HTYRLxskBEhrRWNJZg.png`}
                 alt="blog post"
               ></img>
             </div>
@@ -56,7 +56,7 @@ const News = () => {
         >
           <div className="blog-grid" onClick={toggleModalTwo}>
             <div className="blog-img">
-              <img src={`img/blog/HTYRLxskBEhnQWVD.png`} alt="blog post"></img>
+              <img src={`./img/blog/HTYRLxskBEhnQWVD.png`} alt="blog post"></img>
             </div>
             <div className="blog-info">
               <div className="meta">05/JAN/2024 - BY NYAMBURA </div>
