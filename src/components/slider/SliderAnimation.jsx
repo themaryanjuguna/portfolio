@@ -62,13 +62,11 @@ const Slider = () => {
                   data-aos-duration="1200"
                   data-aos-delay="200"
                 >
-                  <TextLoop>
-                  <p className="loop-text lead">Branding Consultant</p>
+                  <TextLoop>                  
                   <p className="loop-text lead">Graphic Designer</p>
-                  <p className="loop-text lead">WordPress Designer</p>
-                  <p className="loop-text lead">UI/UX Designer</p>
+                  <p className="loop-text lead">WordPress Designer</p>                 
                   <p className="loop-text lead">Front-End Developer</p>
-                  <p className="loop-text lead">Narcolepsy Patient Advocate</p>
+                  <p className="loop-text lead">Patient Advocate</p>
                   </TextLoop>
                 </div>
 
