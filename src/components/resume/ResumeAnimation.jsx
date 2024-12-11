@@ -28,7 +28,7 @@ const resumeContent = [
   },
   {
     jobPosition: `Office Admin & Marketing Support`,
-    jobType: `BBROOD Kenya | on-site`,
+    jobType: `BBROOD Kenya | On-site`,
     jobDuration: `Oct 2016 - Mar 2018`,
     timeDuraton: `Full-time`,
     compnayName: "BBROOD Kenya",
@@ -65,9 +65,9 @@ const resumeContent = [
   },
   {
     jobPosition: `Digital Learning Programme - DLP ICT Officer`,
-    jobType: `Internship`,
+    jobType: `Internship | On-site`,
     jobDuration: `Feb 2023 - Feb 2024`,
-    timeDuraton: `Full-time, On-site`,
+    timeDuraton: `Full-time`,
     compnayName: "Ministry Of Education, Kenya (MOE)",
     jobDescription: `
     Contributed to KEMIS and ElimuTrees UI design, created engaging content, 
@@ -78,8 +78,8 @@ const resumeContent = [
 
 const educatonContent = [
   {
-    passingYear: "2022-Present",
-    degreeTitle: "Bsc. Computer Science,",
+    passingYear: "2022-2024",
+    degreeTitle: "Undergraduate Diploma in Computer Science",
     instituteName: "Kibo School of Technology",
   },
   {
