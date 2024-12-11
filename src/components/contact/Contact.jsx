@@ -48,7 +48,7 @@ const Contact = () => {
               <input
                 type="text"
                 className="form-control theme-light"
-                placeholder="Full name"
+                placeholder="name"
                 {...register("name", { required: "Name is required" })}
               />
               {errors.name && (
@@ -63,7 +63,7 @@ const Contact = () => {
               <input
                 type="email"
                 className="form-control theme-light"
-                placeholder="Email address"
+                placeholder="email"
                 {...register("email", {
                   required: "Email is required",
                   pattern: {
@@ -84,7 +84,7 @@ const Contact = () => {
               <input
                 type="text"
                 className="form-control theme-light"
-                placeholder="Subject"
+                placeholder="subject"
                 {...register("subject", { required: "Subject is required" })}
               />
               {errors.subject && (
