@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
+  const [isLoading, setIsLoading] = useState(false); // Loading state
+
   // Initialize react-hook-form
   const {
     register,
@@ -15,6 +17,7 @@ const Contact = () => {
 
   // Submit handler for form data
   const onSubmit = async (formData) => {
+    setIsLoading(true); // Start loading
     try {
       // POST request to backend
       const response = await axios.post(
@@ -49,6 +52,8 @@ const Contact = () => {
         "Error submitting the form:",
         error.response?.data || error.message
       );
+    } finally {
+      setIsLoading(false); // End loading
     }
   };
 
@@ -129,8 +134,12 @@ const Contact = () => {
           {/* Submit Button */}
           <div className="col-12">
             <div className="btn-bar">
-              <button type="submit" className="px-btn px-btn-white">
-                Send Message
+              <button
+                type="submit"
+                className="px-btn px-btn-white"
+                disabled={isLoading} // Disable button while loading
+              >
+                {isLoading ? "Sending..." : "Send Message"} {/* Show spinner text */}
               </button>
             </div>
           </div>
