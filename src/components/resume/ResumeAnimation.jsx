@@ -3,21 +3,9 @@ import Skills from "../skills/Skills";
 
 const resumeContent = [
   {
-    jobPosition: `Digital Learning Programme - DLP ICT Officer`,
-    jobType: `Internship`,
-    jobDuration: `Feb 2023 - Present`,
-    timeDuraton: `Full Time`,
-    compnayName: "Ministry Of Education, Kenya (MOE)",
-    jobDescription: `
-    DLP ICT Intern at Ministry of Education from Feb 2023 to Feb 2024. 
-    Contributed to KEMIS and ElimuTrees UI design, created engaging content, 
-    and facilitated communication between the ministry and teachers. 
-    Enhanced digital education outcomes in Kenyan public primary schools.`,
-  },
-  {
     jobPosition: `Branding and Social Media Consultant`,
     jobType: `WTD Kenya | Remote`,
-    jobDuration: `Mar 2020 - 2023`,
+    jobDuration: `Mar 2020 - Oct 2023`,
     timeDuraton: `Part Time`,
     compnayName: "World Top Destinations",
     jobDescription: `Enhanced brand identity with a new logo and refreshed corporate visuals. 
@@ -29,7 +17,7 @@ const resumeContent = [
   {
     jobPosition: `Branding and Social Media Consultant`,
     jobType: `BakeKing Solutions | Hybrid`,
-    jobDuration: `Jan 2019 - Present`,
+    jobDuration: `May 2018 - Jan 2023`,
     timeDuraton: `Part Time`,
     compnayName: "BakeKing Solutions",
     jobDescription: `Improved brand image through logo and packaging redesign. 
@@ -40,12 +28,12 @@ const resumeContent = [
   },
   {
     jobPosition: `Office Admin & Marketing Support`,
-    jobType: `BBROOD Kenya | on-site`,
-    jobDuration: `Jan 2019 - Present`,
-    timeDuraton: `Full Time`,
+    jobType: `BBROOD Kenya | On-site`,
+    jobDuration: `Oct 2016 - Mar 2018`,
+    timeDuraton: `Full-time`,
     compnayName: "BBROOD Kenya",
     jobDescription: ` 
-    I created marketing materials per global brand guidelines, trained staff on their use, 
+    Designing marketing materials per global brand guidelines, trained staff on their use, 
     and did product photography. Managed marketing campaigns across platforms, using 
     Google Analytics and Facebook Pixels for better results. Boosted social media engagement and SEO. 
     Set up an Excel system for personnel records. Resolved complaints and managed calls, 
@@ -56,7 +44,7 @@ const resumeContent = [
     jobPosition: `Digital Marketing Executive`,
     jobType: `FCM Travel Kenya | On-Site`,
     jobDuration: `Nov 2009 - Sept 2016`,
-    timeDuraton: `Full Time`,
+    timeDuraton: `Full-time`,
     compnayName: "FCM Travel Solutions, Kenya",
     jobDescription: `Created marketing materials using Adobe Creative Suite, following global brand guidelines, 
     and trained team members on their effective use. Executed impactful marketing campaigns across print, broadcast, 
@@ -65,12 +53,33 @@ const resumeContent = [
     efficiency. Conducted SEO and used Google Analytics to track website performance, improving visibility and traffic.
     Coordinated marketing communication and designed newsletters, improving engagement. Provided IT support for smooth operations.`,
   },
+  {
+    jobPosition: `Digital Marketing Executive`,
+    jobType: `Internship | Hybrid`,
+    jobDuration: `May 2023 - Oct 2024`,
+    timeDuraton: `Full-time`,
+    compnayName: "Kuza Biashara",
+    jobDescription: `
+    Successfully created 6 months of social media content, researched Agritech, and wrote compelling stories on agripreneurs’ journeys. Attended Agritech conferences, capturing insights through photography and videos, and contributed to brainstorming, report writing, and content strategy development. 
+    `,
+  },
+  {
+    jobPosition: `Digital Learning Programme - DLP ICT Officer`,
+    jobType: `Internship | On-site`,
+    jobDuration: `Feb 2023 - Feb 2024`,
+    timeDuraton: `Full-time`,
+    compnayName: "Ministry Of Education, Kenya (MOE)",
+    jobDescription: `
+    Contributed to KEMIS and ElimuTrees UI design, created engaging content, 
+    and facilitated communication between the ministry and teachers. 
+    Enhanced digital education outcomes in Kenyan public primary schools.`,
+  },
 ];
 
 const educatonContent = [
   {
-    passingYear: "2022-Present",
-    degreeTitle: "Bsc. Computer Science,",
+    passingYear: "2022-2024",
+    degreeTitle: "Undergraduate Diploma in Computer Science",
     instituteName: "Kibo School of Technology",
   },
   {
