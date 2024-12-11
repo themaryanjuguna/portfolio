@@ -1,6 +1,8 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import axios from "axios";
+import { ToastContainer, toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
   // Initialize react-hook-form
@@ -28,17 +30,25 @@ const Contact = () => {
         },
       );
 
-    console.log("Form submitted successfully:", response.data);
-      alert("Your message has been sent successfully!");
+      // Display success toast
+      toast.success("Your message has been sent successfully!", {
+        position: toast.POSITION.TOP_RIGHT,
+      });
 
       // Reset form fields
       reset();
     } catch (error) {
+      // Display error toast
+      toast.error(
+        "There was an issue submitting your message. Please try again.",
+        {
+          position: toast.POSITION.TOP_RIGHT,
+        }
+      );
       console.error(
         "Error submitting the form:",
         error.response?.data || error.message
       );
-      alert("There was an issue submitting your message. Please try again.");
     }
   };
 
@@ -126,6 +136,9 @@ const Contact = () => {
           </div>
         </div>
       </form>
+
+      {/* Toastify Container */}
+      <ToastContainer />
     </>
   );
 };
