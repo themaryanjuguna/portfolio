@@ -16,7 +16,7 @@ const Contact = () => {
     try {
       // POST request to backend
       const response = await axios.post(
-        "http://localhost:5000/submit",
+        "https://porfoliobackend-3ja5.onrender.com/submit",
         {
           name: formData.name,
           email: formData.email,
