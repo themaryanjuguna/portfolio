@@ -9,7 +9,7 @@ const AllRoutes = () => {
     <>
       <ScrollTopBehaviour />
       <Routes>
-        <Route path="/" element={<HomeDarkAnimation />} />  
+        <Route path="/portfolio" element={<HomeDarkAnimation />} />  
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>

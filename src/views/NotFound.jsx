@@ -19,7 +19,7 @@ const NotFound = () => {
                   Whoops, it looks like the page you request wasn't found.
                 </p>
                 <div className="btn-bar mt-4">
-                  <Link className="px-btn px-btn-white" to="/">
+                  <Link className="px-btn px-btn-white" to="/portfolio">
                     BACK TO HOME
                   </Link>
                   {/* End purchase_button */}
